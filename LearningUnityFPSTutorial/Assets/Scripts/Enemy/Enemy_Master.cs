@@ -27,6 +27,7 @@ namespace TBD {
             }
         }
         public void CallEventEnemySetNavTarget(Transform targTransform) {
+            Debug.Log("Found target");
             if(EventEnemySetNavTarget != null) {
                 EventEnemySetNavTarget(targTransform);
             }
@@ -44,6 +45,7 @@ namespace TBD {
             }
         }
         public void CallEventEnemyLostTarget() {
+            Debug.Log("Lost Target");
             if (EventEnemyLostTarget != null) {
                 EventEnemyLostTarget();
             }
