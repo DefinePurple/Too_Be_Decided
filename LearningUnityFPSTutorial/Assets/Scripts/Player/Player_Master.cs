@@ -9,7 +9,7 @@ namespace TBD{
         public event GeneralEventHandler EventHandsEmpty;
         public event GeneralEventHandler EventAmmoChanged;
 
-        public delegate void AmmoPickupEventHandler(string ammoName, int quantity);
+        public delegate void AmmoPickupEventHandler(int quantity);
         public event AmmoPickupEventHandler EventPickedUpAmmo;
 
         public delegate void PlayerHealthEventHandler(int healthChange);
@@ -26,9 +26,9 @@ namespace TBD{
                 EventAmmoChanged();
             }
         }
-        public void CallEventPickedUpAmmo(string ammoName, int quantity) {
+        public void CallEventPickedUpAmmo(int quantity) {
             if (EventPickedUpAmmo != null) {
-                EventPickedUpAmmo(ammoName, quantity);
+                EventPickedUpAmmo(quantity);
             }
         }
         public void CallEventPlayerHealthReduce(int dmg) {

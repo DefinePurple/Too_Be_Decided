@@ -20,7 +20,7 @@ namespace TBD{
             }
         }
 
-        public List<AmmoTypes> typesOfAmmunition = new List<AmmoTypes>();
+        public AmmoTypes ammunition;
 
         void OnEnable() {
             SetInitial();
@@ -35,18 +35,13 @@ namespace TBD{
             playerMaster = GetComponent<Player_Master>();
         }
 
-        void PickedUpAmmo(string ammoName, int quantity) {
-            for(int i = 0; i < typesOfAmmunition.Count; i++) {
-                if(typesOfAmmunition[i].ammoName == ammoName) {
-                    typesOfAmmunition[i].ammoCurrentCarried += quantity;
+        void PickedUpAmmo(int quantity) {
+            ammunition.ammoCurrentCarried += quantity;
                     
-                    if(typesOfAmmunition[i].ammoCurrentCarried > typesOfAmmunition[i].maxQuantity)
-                        typesOfAmmunition[i].ammoCurrentCarried = typesOfAmmunition[i].maxQuantity;
+            if(ammunition.ammoCurrentCarried > ammunition.maxQuantity)
+                ammunition.ammoCurrentCarried = ammunition.maxQuantity;
 
-                    playerMaster.CallEventAmmoChanged();
-                    break;
-                }
-            }
+            playerMaster.CallEventAmmoChanged();
         }
 	}
 }

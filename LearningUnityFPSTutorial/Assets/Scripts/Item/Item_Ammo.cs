@@ -29,7 +29,7 @@ namespace TBD {
         }
 
         void TakeAmmo() {
-            playerGO.GetComponent<Player_Master>().CallEventPickedUpAmmo(ammoName, quantity);
+            playerGO.GetComponent<Player_Master>().CallEventPickedUpAmmo(quantity);
             Destroy(gameObject);
         }
     }
