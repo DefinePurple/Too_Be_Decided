@@ -16,7 +16,7 @@ public class GameSparksManager : MonoBehaviour {
     public static GameSparksManager Instance() {
         if (instance != null)
             return instance;
-        //else //Debug.LogError("GSM| GameSparksManager Not Initialized...");
+        else Debug.LogError("GSM| GameSparksManager Not Initialized...");
         return null;
     }
 
@@ -46,8 +46,8 @@ public class GameSparksManager : MonoBehaviour {
             .SetPassword(_password)
             .Send((regResp) => {
                 if (!regResp.HasErrors) { // if we get the response back with no errors then the registration was successful
-                    //Debug.Log("GSM| Registration Successful...");
-                } //else //Debug.LogWarning("GSM| Registration Failed \n" + regResp.Errors.JSON);
+                    Debug.Log("GSM| Registration Successful...");
+                } else Debug.LogWarning("GSM| Registration Failed \n" + regResp.Errors.JSON);
             });
     }
 
@@ -57,22 +57,22 @@ public class GameSparksManager : MonoBehaviour {
             .SetPassword(_password)
             .Send((authResp) => {
                 if (!authResp.HasErrors) {
-                    //Debug.Log("Authentication Successful...");
+                    Debug.Log("Authentication Successful...");
                     _authcallback(authResp);
-                } //else //Debug.LogWarning("GSM| Error Authenticating User \n" + authResp.Errors.JSON);
+                } else Debug.LogWarning("GSM| Error Authenticating User \n" + authResp.Errors.JSON);
             });
     }
     #endregion
 
     #region Matchmaking Request
     public void FindPlayers() {
-        //Debug.Log("GSM| Attempting Matchmaking...");
+        Debug.Log("GSM| Attempting Matchmaking...");
         new MatchmakingRequest()
             .SetMatchShortCode("MATCH")
             .SetSkill(0)
             .Send((response) => {
                 if (response.HasErrors) {
-                    //Debug.LogError("GSM| MatchMaking Error \n" + response.Errors.JSON);
+                    Debug.LogError("GSM| MatchMaking Error \n" + response.Errors.JSON);
                 }
             });
     }
@@ -97,8 +97,8 @@ public class GameSparksManager : MonoBehaviour {
             sessionInfo = _info;
             gameSparksRTUnity = this.gameObject.AddComponent<GameSparksRTUnity>();
             GSRequestData mockedResponse = new GSRequestData();
-            //mockedResponse.AddNumber("port", (double)_info.GetPortID());
-            //mockedResponse.AddString("host", _info.GetHostURL());
+            mockedResponse.AddNumber("port", (double)_info.GetPortID());
+            mockedResponse.AddString("host", _info.GetHostURL());
             mockedResponse.AddString("accessToken", _info.GetAccessToken()); // construct a dataset from the game-details
             FindMatchResponse response = new FindMatchResponse(mockedResponse); 
 
@@ -109,23 +109,23 @@ public class GameSparksManager : MonoBehaviour {
                 (packet) => { OnPacketReceived(packet); });
             gameSparksRTUnity.Connect(); // when the config is set, connect the game
         } else {
-            //Debug.LogError("Session Already Started");
+            Debug.LogError("Session Already Started");
         }
 
     }
 
     private void OnPlayerConnectedToGame(int _peerId) {
-        //Debug.Log("GSM| Player " + _peerId + " Connected");
+        Debug.Log("GSM| Player " + _peerId + " Connected");
     }
 
     private void OnPlayerDisconnected(int _peerId) {
-        //Debug.Log("GSM| Player " + _peerId + " Disconnected");
+        Debug.Log("GSM| Player " + _peerId + " Disconnected");
         //GameController.Instance().OnOpponentDisconnected(_peerId);
     }
 
     private void OnRTReady(bool _isReady) {
         if (_isReady) {
-            //Debug.LogError("GSM| RT Session Connected...");
+            Debug.LogError("GSM| RT Session Connected...");
             SceneManager.LoadScene(1);
             StartCoroutine(SendPackets());
         }
@@ -139,6 +139,44 @@ public class GameSparksManager : MonoBehaviour {
     }
 
     private void OnPacketReceived(RTPacket _packet) {
+        Debug.LogWarning(_packet.ToString());
+        //		if (GameController.Instance () != null) {
+        //			GameController.Instance().PacketReceived(_packet.PacketSize);
+        //		}
+
+        switch (_packet.OpCode) {
+            // op-code 1 refers to any chat-messages being received by a player //
+            // from here, we will send them to the chat-manager //
+                //		case 2:
+                //			// contains information about the rotation, positiona and 'isInvincible' bool
+                //			GameController.Instance ().UpdateOpponentTanks (_packet);
+                //			break;
+                //		case 3:
+                //			// contains information about the id of the shell that needs to be created
+                //			// so that the sender and recipient a corresonding id for the shell
+                //			GameController.Instance ().InstantiateOpponentShells(_packet);
+                //			break;
+                //		case 4:
+                //			// contains information about the position and rotation of the opponent shells
+                //			GameController.Instance ().UpdateOpponentShells (_packet);
+                //			break;
+                //		case 5:
+                //			// contains information about the shell that hit, the player it hit, and the owner of the shell
+                //			GameController.Instance ().RegisterOpponentCollision (_packet);
+                //			break;
+                //
+                //		// REGISTER NETWORK INFO //
+                //		case 100:
+                //			Debug.Log ("GSM| Loading Level...");
+                //			SceneManager.LoadScene ("GameScene");
+                //			break;
+                //		case 101:
+                //			GameController.Instance ().CalculateTimeDelta (_packet);
+                //			break;
+                //		case 102:
+                //			GameController.Instance ().SyncClock (_packet);
+                //			break;
+        }
     }
 }
 
