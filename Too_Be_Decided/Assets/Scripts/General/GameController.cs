@@ -36,7 +36,7 @@ namespace TBD {
                         //Instantiate a new player
                         GameObject newPlayer = Instantiate(playerPrefabs[i], allSpawners[j].gameObject.transform.position, allSpawners[j].gameObject.transform.rotation) as GameObject;
 
-                        
+
                         //Set the players name
                         newPlayer.name = GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].peerID.ToString();
                         //Set the players parent
@@ -45,7 +45,7 @@ namespace TBD {
                         // if the current iteration is the player, set it up as the player.
                         if (GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].peerID == GameSparksManager.Instance().GetRTSession().PeerId)
                             newPlayer.GetComponent<Player_Master>().SetupTank(allSpawners[j].gameObject.transform, true, playerScoreHUDList[i]);
-                            //newPlayer.GetComponent<Player_Master>().SetupTank(allSpawners[j].gameObject.transform, true);
+                        //newPlayer.GetComponent<Player_Master>().SetupTank(allSpawners[j].gameObject.transform, true);
                         else {
                             newPlayer.GetComponent<Player_Master>().SetupTank(allSpawners[j].gameObject.transform, false, playerScoreHUDList[i]);
                             //newPlayer.GetComponent<Player_Master>().SetupTank(allSpawners[j].gameObject.transform, false);
@@ -55,7 +55,7 @@ namespace TBD {
                         // add the new tank object to the corresponding reference in the list
                         playerList[i] = newPlayer.GetComponent<Player_Master>();
                         // set the HUD of this player to be the display name
-                        playerNamesHUDList[i].text = GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].displayName; 
+                        //playerNamesHUDList[i].text = GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].displayName;
                         break;
                     }
                 }
@@ -65,6 +65,7 @@ namespace TBD {
             for (int i = GameSparksManager.Instance().GetSessionInfo().GetPlayerList().Count; i < playerScoreHUDList.Length; i++) {
                 playerScoreHUDList[i].text = playerNamesHUDList[i].text = string.Empty;
             }
+
         }
 
         public void UpdateOpponents(RTPacket _packet) {
