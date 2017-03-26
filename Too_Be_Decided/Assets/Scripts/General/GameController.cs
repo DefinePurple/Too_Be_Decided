@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using GameSparks.RT;
+using UnityStandardAssets.Characters.FirstPerson;
 
 namespace TBD {
     public class GameController : MonoBehaviour {
@@ -26,8 +27,6 @@ namespace TBD {
             int playerCount = GameSparksManager.Instance().GetSessionInfo().GetPlayerList().Count;
             #region Setup Player Tanks
             playerList = new Player_Master[playerCount];
-            playerScoreHUDList = new Text[playerCount];
-            playerNamesHUDList = new Text[playerCount];
 
             Debug.Log("GC| Found " + playerList.Length + " Players...");
             for (int i = 0; i < playerCount; i++) {
@@ -36,7 +35,6 @@ namespace TBD {
                         //Instantiate a new player
                         GameObject newPlayer = Instantiate(playerPrefabs[i], allSpawners[j].gameObject.transform.position, allSpawners[j].gameObject.transform.rotation) as GameObject;
 
-
                         //Set the players name
                         newPlayer.name = GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].peerID.ToString();
                         //Set the players parent
@@ -44,12 +42,11 @@ namespace TBD {
 
                         // if the current iteration is the player, set it up as the player.
                         if (GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].peerID == GameSparksManager.Instance().GetRTSession().PeerId)
-                            newPlayer.GetComponent<Player_Master>().SetupTank(allSpawners[j].gameObject.transform, true, playerScoreHUDList[i]);
-                        //newPlayer.GetComponent<Player_Master>().SetupTank(allSpawners[j].gameObject.transform, true);
+                            newPlayer.GetComponent<Player_Master>().Setup(allSpawners[j].gameObject.transform, true);
                         else {
-                            newPlayer.GetComponent<Player_Master>().SetupTank(allSpawners[j].gameObject.transform, false, playerScoreHUDList[i]);
-                            //newPlayer.GetComponent<Player_Master>().SetupTank(allSpawners[j].gameObject.transform, false);
-                            this.gameObject.GetComponentInChildren<AudioListener>().enabled = !enabled;
+                            newPlayer.GetComponent<Player_Master>().Setup(allSpawners[j].gameObject.transform, false);
+                            newPlayer.GetComponent<FirstPersonController>().enabled = !enabled;
+                            newPlayer.transform.GetChild(0).gameObject.SetActive(false);
                         }
 
                         // add the new tank object to the corresponding reference in the list
@@ -61,11 +58,6 @@ namespace TBD {
                 }
             }
             #endregion
-
-            for (int i = GameSparksManager.Instance().GetSessionInfo().GetPlayerList().Count; i < playerScoreHUDList.Length; i++) {
-                playerScoreHUDList[i].text = playerNamesHUDList[i].text = string.Empty;
-            }
-
         }
 
         public void UpdateOpponents(RTPacket _packet) {
