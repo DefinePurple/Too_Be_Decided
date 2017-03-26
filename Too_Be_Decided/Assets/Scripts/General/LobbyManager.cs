@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using GameSparks.Api.Responses;
 using GameSparks.Api.Messages;
+using GameSparks.Api.Requests;
 
 namespace TBD {
     public class LobbyManager : MonoBehaviour {
@@ -12,7 +13,7 @@ namespace TBD {
         public InputField userNameInput, passwordInput;
         public GameObject loginPanel, SearchPanel;
         public Button loginButton, registerButton, matchmakingButton, startGameButton, exitButton, logoutButton;
-        public Text matchDetails;
+        public Text matchDetails, loginDetails;
 
         private RTSessionInfo tempRTSessionInfo;
 

@@ -7,6 +7,7 @@ namespace TBD {
     public class Player_Master : MonoBehaviour {
 
         public void SetupTank(Transform _spawnPos, bool _isPlayer, Text _myScoreTxt) {
+        //public void SetupTank(Transform _spawnPos, bool _isPlayer) {
 
         }
     }
