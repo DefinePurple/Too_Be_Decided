@@ -61,7 +61,14 @@ namespace TBD {
         }
 
         public void UpdateOpponents(RTPacket _packet) {
-
+            for (int i = 0; i < playerList.Length; i++) {
+                if (playerList[i].name == _packet.Sender.ToString()) { // check the name of the tank matches the sender
+                                                                            // we calculate the new position the tank should go to be the position they are at plus the velocity. That is, their position plus the distance they traveled according to their last speed
+                    playerList[i].goToPos = (new Vector2(_packet.Data.GetVector4(1).Value.x, _packet.Data.GetVector4(1).Value.y)) + (new Vector2(_packet.Data.GetVector4(1).Value.z, _packet.Data.GetVector4(1).Value.w));
+                    playerList[i].gotoRot = _packet.Data.GetFloat(2).Value;
+                    break; // break, because we don’t need to update any other tanks.
+                }
+            }
         }
 
         public void RegisterOpponentCollision(RTPacket _packet) {

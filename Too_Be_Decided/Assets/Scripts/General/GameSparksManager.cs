@@ -1,13 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 using GameSparks.Api.Responses;
 using GameSparks.Core;
 using GameSparks.Api.Messages;
-using System.Collections.Generic;
+
 using GameSparks.RT;
 using UnityEngine.SceneManagement;
-using System.IO;
-using System;
+
 using GameSparks.Api.Requests;
 
 namespace TBD {
@@ -37,7 +37,6 @@ namespace TBD {
 
         #region Login & Registration
         public delegate void AuthCallback(AuthenticationResponse _authresp2);
-        public delegate void RegCallback(RegistrationResponse _authResp);
 
         public void RegisterUser(string _userName, string _password) {
             new RegistrationRequest()
@@ -77,20 +76,7 @@ namespace TBD {
                 });
         }
         #endregion
-        // Adds the RT script to the game
-        // In order to create a new RT game we need a 'FindMatchResponse' //
-        // This would usually come from the server directly after a sucessful FindMatchRequest //
-        // However, in our case, we want the game to be created only when the first player decides using a button //
-        // therefore, the details from the response is passed in from the gameInfo and a mock-up of a FindMatchResponse //
-        // is passed in. In normal operation this mock-response may not be needed //
 
-
-        // create a match-response from that data and pass it into the game-config
-        // So in the game-config method we pass in the response which gives the instance its connection settings //
-        // In this example i use a lambda expression to pass in actions for 
-        // OnPlayerConnect, OnPlayerDisconnect, OnReady and OnPacket actions //
-        // These methods are self-explanitory, but the important one is the OnPacket Method //
-        // this gets called when a packet is received //
         public void StartNewRTSession(RTSessionInfo _info) {
             if (gameSparksRTUnity == null) {
                 Debug.Log("GSM| Creating New RT Session Instance...");
