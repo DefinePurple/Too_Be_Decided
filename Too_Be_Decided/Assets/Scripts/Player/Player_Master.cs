@@ -12,8 +12,8 @@ namespace TBD {
 
         private Vector3 prevPos, velocity;
         private float updateRate = 0.1f;
-        public Vector2 goToPos;
-        public float gotoRot;
+        public Vector3 goToPos;
+        public Transform gotoRot;
 
         private Text myScoreText;
         private int myScore;
@@ -27,18 +27,19 @@ namespace TBD {
                 StartCoroutine(SendMovement());
             } else {
                 goToPos = this.transform.position;
-                gotoRot = this.transform.eulerAngles.z;
+                gotoRot = this.transform;
             }
 
             //myScoreText = _myScoreTxt; // set the player's score
             //myScoreText.text = "Score:0"; // we'll also set the text to zero to start with
         }
-        
+
         void Update() {
             #region Player Movement
             if (!isPlayer) { // check that this is the player's tank
-                this.transform.position = Vector2.Lerp(transform.position, goToPos, Time.deltaTime / updateRate); // lerp the enemy tank to the new position
-                this.transform.eulerAngles = new Vector3(0, 0, Mathf.LerpAngle(this.transform.eulerAngles.z, gotoRot, Time.deltaTime / updateRate)); // lerp the enemy tank to the new angle
+                this.transform.position = Vector3.Lerp(transform.position, goToPos, Time.deltaTime / updateRate); // lerp the enemy tank to the new position
+                //this.transform.eulerAngles = new Vector3(0, 0, Mathf.LerpAngle(this.transform.eulerAngles.z, gotoRot, Time.deltaTime / updateRate)); // lerp the enemy tank to the new angle
+                Quaternion.RotateTowards(this.transform.rotation, gotoRot.rotation, Time.deltaTime / updateRate);
             }
 
             velocity = this.transform.position - prevPos; // calculate velocity
@@ -51,8 +52,9 @@ namespace TBD {
             //Checks if the player is actually moving before sending packet
             if ((this.transform.position != prevPos) || (Mathf.Abs(Input.GetAxis("Vertical")) > 0) || (Mathf.Abs(Input.GetAxis("Horizontal")) > 0)) {
                 using (RTData data = RTData.Get()) {  // we put a using statement here so that we can dispose of the RTData objects once the packet is sent
-                    data.SetVector4(1, new Vector4(this.transform.position.x, this.transform.position.y, velocity.x, velocity.y)); // add the position at key 1
-                    data.SetFloat(2, this.transform.eulerAngles.z); // add the rotation at key 2
+                    data.SetVector3(1, new Vector4(this.transform.position.x, this.transform.position.y, this.transform.position.z)); // add the position at key 1
+                    data.SetVector3(2, new Vector3(velocity.x, velocity.y, 0));
+                    data.SetVector3(3, new Vector3(this.transform.rotation.x, this.transform.rotation.y, this.transform.rotation.z)); // add the rotation at key 2
                     GameSparksManager.Instance().GetRTSession().SendData(2, GameSparks.RT.GameSparksRT.DeliveryIntent.UNRELIABLE_SEQUENCED, data);// send the data
                 }
                 prevPos = this.transform.position; // record position for any discrepancies
