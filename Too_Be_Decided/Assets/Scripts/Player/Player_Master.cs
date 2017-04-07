@@ -11,7 +11,7 @@ namespace TBD {
         private bool isPlayer;
 
         private Vector3 prevPos, velocity;
-        private float updateRate = 0.1f;
+        private float updateRate = 0.05f;
         public Vector3 goToPos;
         public Transform gotoRot;
 
