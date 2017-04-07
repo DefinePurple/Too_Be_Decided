@@ -7,8 +7,16 @@ using GameSparks.RT;
 namespace TBD {
     public class Player_Master : MonoBehaviour {
 
+        #region Events
+
+        #endregion
+
+        #region GameSparks 
         private Transform spawnPos;
-        private bool isPlayer;
+        private bool isPlayer = true;
+        public bool IsPlayer() {
+            return isPlayer;
+        }
 
         private Vector3 prevPos, velocity;
         private float updateRate = 0.05f;
@@ -63,6 +71,7 @@ namespace TBD {
             yield return new WaitForSeconds(updateRate);
             StartCoroutine(SendMovement());
         }
+        #endregion
     }
 }
 
