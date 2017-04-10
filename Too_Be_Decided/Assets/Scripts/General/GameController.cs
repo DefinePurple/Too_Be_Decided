@@ -41,12 +41,15 @@ namespace TBD {
                         newPlayer.transform.SetParent(this.transform);
 
                         // if the current iteration is the player, set it up as the player.
-                        if (GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].peerID == GameSparksManager.Instance().GetRTSession().PeerId)
+                        if (GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].peerID == GameSparksManager.Instance().GetRTSession().PeerId) {
                             newPlayer.GetComponent<Player_Master>().Setup(allSpawners[j].gameObject.transform, true);
-                        else {
+                            newPlayer.transform.GetChild(0).gameObject.SetActive(true);
+                            newPlayer.transform.GetChild(1).gameObject.SetActive(false);
+                        } else {
                             newPlayer.GetComponent<Player_Master>().Setup(allSpawners[j].gameObject.transform, false);
                             newPlayer.GetComponent<FirstPersonController>().enabled = !enabled;
                             newPlayer.transform.GetChild(0).gameObject.SetActive(false);
+                            newPlayer.transform.GetChild(1).gameObject.SetActive(true);
                         }
 
                         // add the new tank object to the corresponding reference in the list
