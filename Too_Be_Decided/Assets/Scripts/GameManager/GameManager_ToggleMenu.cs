@@ -8,11 +8,6 @@ namespace TBD {
         private GameManager_Master gameManagerMaster;
         public GameObject menu;
 
-        // Use this for initialization
-        void Start() {
-            ToggleMenu();
-        }
-
         // Update is called once per frame
         void Update() {
             CheckForMenuToggle();
