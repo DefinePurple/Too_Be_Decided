@@ -15,7 +15,8 @@ namespace TBD {
         void Awake() {
             instance = this;
         }
-        public GameObject[] playerPrefabs;
+        public GameObject playerPrefab;
+        public GameObject[] enemyPrefabs;
         private Player_Master[] playerList;
         public Player_Master[] GetAllPlayers() {
             return playerList;
@@ -32,28 +33,42 @@ namespace TBD {
             for (int i = 0; i < playerCount; i++) {
                 for (int j = 0; j < allSpawners.Length; j++) {
                     if (allSpawners[j].playerPeerId == GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].peerID) {
-                        //Instantiate a new player
-                        GameObject newPlayer = Instantiate(playerPrefabs[i], allSpawners[j].gameObject.transform.position, allSpawners[j].gameObject.transform.rotation) as GameObject;
-
-                        //Set the players name
-                        newPlayer.name = GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].peerID.ToString();
-                        //Set the players parent
-                        newPlayer.transform.SetParent(this.transform);
-
                         // if the current iteration is the player, set it up as the player.
                         if (GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].peerID == GameSparksManager.Instance().GetRTSession().PeerId) {
+                            //Creates the player
+                            GameObject newPlayer = Instantiate(playerPrefab, allSpawners[j].gameObject.transform.position, allSpawners[j].gameObject.transform.rotation) as GameObject;
+                            
+                            //Calls function to setup the player
                             newPlayer.GetComponent<Player_Master>().Setup(allSpawners[j].gameObject.transform, true);
+                            
+                            //Ensures Cameras are active
                             newPlayer.transform.GetChild(0).gameObject.SetActive(true);
-                            newPlayer.transform.GetChild(1).gameObject.SetActive(false);
+                            
+                            //Set the players name
+                            newPlayer.name = GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].peerID.ToString();
+
+                            //Set the players parent
+                            newPlayer.transform.SetParent(this.transform);
+
+                            // add the new tank object to the corresponding reference in the list
+                            playerList[i] = newPlayer.GetComponent<Player_Master>();
                         } else {
-                            newPlayer.GetComponent<Player_Master>().Setup(allSpawners[j].gameObject.transform, false);
-                            newPlayer.GetComponent<FirstPersonController>().enabled = !enabled;
-                            newPlayer.transform.GetChild(0).gameObject.SetActive(false);
-                            newPlayer.transform.GetChild(1).gameObject.SetActive(true);
+                            //Creates the enemy player
+                            GameObject enemyPlayer = Instantiate(enemyPrefabs[i], allSpawners[j].gameObject.transform.position, allSpawners[j].gameObject.transform.rotation) as GameObject;
+
+                            //Calls function to setup the enemy player
+                            enemyPlayer.GetComponent<Player_Master>().Setup(allSpawners[j].gameObject.transform, false);
+
+                            //Set the enemy's name
+                            enemyPlayer.name = GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].peerID.ToString();
+
+                            //Set the enemy's parent
+                            enemyPlayer.transform.SetParent(this.transform);
+
+                            // add the new tank object to the corresponding reference in the list
+                            playerList[i] = enemyPlayer.GetComponent<Player_Master>();
                         }
 
-                        // add the new tank object to the corresponding reference in the list
-                        playerList[i] = newPlayer.GetComponent<Player_Master>();
                         // set the HUD of this player to be the display name
                         //playerNamesHUDList[i].text = GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].displayName;
                         break;
