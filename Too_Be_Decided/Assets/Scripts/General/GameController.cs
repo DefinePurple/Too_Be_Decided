@@ -33,13 +33,14 @@ namespace TBD {
             for (int i = 0; i < playerCount; i++) {
                 for (int j = 0; j < allSpawners.Length; j++) {
                     if (allSpawners[j].playerPeerId == GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].peerID) {
+                        int tempPeerID = GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].peerID;
                         // if the current iteration is the player, set it up as the player.
                         if (GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].peerID == GameSparksManager.Instance().GetRTSession().PeerId) {
                             //Creates the player
                             GameObject newPlayer = Instantiate(playerPrefab, allSpawners[j].gameObject.transform.position, allSpawners[j].gameObject.transform.rotation) as GameObject;
                             
                             //Calls function to setup the player
-                            newPlayer.GetComponent<Player_Master>().Setup(allSpawners[j].gameObject.transform, true);
+                            newPlayer.GetComponent<Player_Master>().Setup(allSpawners[j].gameObject.transform, true, tempPeerID);
                             
                             //Ensures Cameras are active
                             newPlayer.transform.GetChild(0).gameObject.SetActive(true);
@@ -53,11 +54,12 @@ namespace TBD {
                             // add the new tank object to the corresponding reference in the list
                             playerList[i] = newPlayer.GetComponent<Player_Master>();
                         } else {
+                            int tempPeerID = GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].peerID;
                             //Creates the enemy player
                             GameObject enemyPlayer = Instantiate(enemyPrefabs[i], allSpawners[j].gameObject.transform.position, allSpawners[j].gameObject.transform.rotation) as GameObject;
 
                             //Calls function to setup the enemy player
-                            enemyPlayer.GetComponent<Player_Master>().Setup(allSpawners[j].gameObject.transform, false);
+                            enemyPlayer.GetComponent<Player_Master>().Setup(allSpawners[j].gameObject.transform, false, tempPeerID);
 
                             //Set the enemy's name
                             enemyPlayer.name = GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].peerID.ToString();

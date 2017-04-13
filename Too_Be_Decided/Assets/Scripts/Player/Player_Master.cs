@@ -53,7 +53,13 @@ namespace TBD {
             return isPlayer;
         }
 
+        private int peerID;
+        public int GetPeerID() {
+            return peerID;
+        }
+
         private Vector3 prevPos, velocity;
+        private float prevRot;
         private float updateRate = 0.05f;
         public Vector3 goToPos;
         public float gotoRot;
@@ -61,12 +67,14 @@ namespace TBD {
         private Text myScoreText;
         private int myScore;
 
-        public void Setup(Transform _spawnPos, bool _isPlayer) {
+        public void Setup(Transform _spawnPos, bool _isPlayer, float _peerID) {
+            peerID = _peerID;
             spawnPos = _spawnPos; // set the spawn position
             isPlayer = _isPlayer; // set the player
 
             if (isPlayer) {
                 prevPos = transform.position;
+                prevRot = transform.eulerAngles.y;
                 StartCoroutine(SendMovement());
             } else {
                 goToPos = this.transform.position;
@@ -83,7 +91,7 @@ namespace TBD {
                 this.transform.position = Vector3.Lerp(transform.position, goToPos, Time.deltaTime / updateRate); // lerp the enemy tank to the new position
                 //this.transform.eulerAngles = new Vector3(0, 0, Mathf.LerpAngle(this.transform.eulerAngles.z, gotoRot, Time.deltaTime / updateRate)); // lerp the enemy tank to the new angle
                 //this.transform.rotation = Quaternion.Lerp(this.transform.rotation, gotoRot.rotation, Time.deltaTime / updateRate);
-                this.transform.eulerAngles = new Vector3(0, 0, Mathf.LerpAngle(this.transform.eulerAngles.z, gotoRot, Time.deltaTime / updateRate));
+                this.transform.eulerAngles = new Vector3(0, Mathf.LerpAngle(this.transform.eulerAngles.y, gotoRot, Time.deltaTime / updateRate), 0);
             }
 
             velocity = this.transform.position - prevPos; // calculate velocity
@@ -94,14 +102,15 @@ namespace TBD {
 
         private IEnumerator SendMovement() {
             //Checks if the player is actually moving before sending packet
-            if ((this.transform.position != prevPos) || (Mathf.Abs(Input.GetAxis("Vertical")) > 0) || (Mathf.Abs(Input.GetAxis("Horizontal")) > 0)) {
+            if ((this.transform.position != prevPos) || (this.transform.eulerAngles.y != prevRot) || (Mathf.Abs(Input.GetAxis("Vertical")) > 0) || (Mathf.Abs(Input.GetAxis("Horizontal")) > 0)) {
                 using (RTData data = RTData.Get()) {  // we put a using statement here so that we can dispose of the RTData objects once the packet is sent
                     data.SetVector3(1, new Vector4(this.transform.position.x, this.transform.position.y, this.transform.position.z)); // add the position at key 1
                     data.SetVector3(2, new Vector3(velocity.x, velocity.y, 0));
-                    data.SetFloat(3, this.transform.rotation.y); // add the rotation at key 2
+                    data.SetFloat(3, this.transform.eulerAngles.y); // add the rotation at key 2
                     GameSparksManager.Instance().GetRTSession().SendData(2, GameSparks.RT.GameSparksRT.DeliveryIntent.UNRELIABLE_SEQUENCED, data);// send the data
                 }
                 prevPos = this.transform.position; // record position for any discrepancies
+                prevRot = this.transform.eulerAngles.y;
             }
 
             yield return new WaitForSeconds(updateRate);
