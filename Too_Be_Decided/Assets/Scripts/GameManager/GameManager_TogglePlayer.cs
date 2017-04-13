@@ -11,15 +11,17 @@ namespace TBD {
         private FirstPersonController fpsScript;
 
         void OnEnable() {
-            SetInitial();
-
-            gameManagerMaster.MenuToggleEvent += TogglePlayer;
+            
         }
 
         void OnDisable() {
             gameManagerMaster.MenuToggleEvent -= TogglePlayer;
         }
 
+        void Start() {
+            SetInitial();
+            gameManagerMaster.MenuToggleEvent += TogglePlayer;
+        }
         void SetInitial() {
             gameManagerMaster = GetComponent<GameManager_Master>();
             fpsScript = GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonController>();

@@ -85,7 +85,7 @@ namespace TBD {
                     Vector3 position = new Vector3(_packet.Data.GetVector3(1).Value.x, _packet.Data.GetVector3(1).Value.y, _packet.Data.GetVector3(1).Value.z);
                     Vector3 velocity = new Vector3(_packet.Data.GetVector3(2).Value.x, _packet.Data.GetVector3(2).Value.y, _packet.Data.GetVector3(2).Value.z);
                     playerList[i].goToPos = position + velocity;
-                    playerList[i].gotoRot.localEulerAngles = _packet.Data.GetVector3(3).Value;
+                    playerList[i].gotoRot = _packet.Data.GetFloat(3).Value;
                     break; // break, because we don’t need to update any other tanks.
                 }
             }
