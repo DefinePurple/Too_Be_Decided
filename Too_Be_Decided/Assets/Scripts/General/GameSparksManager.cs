@@ -81,7 +81,6 @@ namespace TBD {
             if (gameSparksRTUnity == null) {
                 Debug.Log("GSM| Creating New RT Session Instance...");
                 sessionInfo = _info;
-                RTSessionInfo doop = GetSessionInfo();
                 gameSparksRTUnity = this.gameObject.AddComponent<GameSparksRTUnity>();
                 GSRequestData mockedResponse = new GSRequestData();
                 mockedResponse.AddNumber("port", (double)_info.GetPortID());

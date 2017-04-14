@@ -48,7 +48,7 @@ namespace TBD {
 
         #region GameSparks 
         private Transform spawnPos;
-        private bool isPlayer;
+        private bool isPlayer = true;
         public bool IsPlayer() {
             return isPlayer;
         }
