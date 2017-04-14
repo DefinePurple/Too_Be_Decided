@@ -1,0 +1,2557 @@
+Initialize engine version: 5.5.1f1 (88d00a7498cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 740 (ID=0xfc8)
+    Vendor:   NVIDIA
+    VRAM:     2017 MB
+    Driver:   21.21.13.7653
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\BouncyCastle_GameSparks.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\BouncyCastle_GameSparks.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\GameSparks.Api.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\GameSparks.Api.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\GameSparks.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\GameSparks.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\GameSparksRT.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\GameSparksRT.dll into Unity Child Domain
+- Completed reload, in  0.026 seconds
+Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\System.dll (this message is harmless)
+desktop: 1440x900 60Hz; virtual: 3360x1080 at -1440,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.936063 ms
+GS: Connecting to:wss://preview-o308282J6vRk.ws.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+IPv6 on!
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1560 -> priority: 1 
+IPv6 on!
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class": ".AuthenticatedConnectResponse","connectUrl": "wss://gsp-aeu000-se03.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=","requestId": "0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: Connecting to:wss://gsp-aeu000-se03.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"8b378ca0-4ff8-43ed-8009-ede1f0f87103","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"DiGN9wOOoypcyd2Xklzrzxo6+GIyNqL6IuqjKfJi4dU=","os":"WINDOWS","platform":"WindowsPlayer","deviceId":"cd0a8a5452a1b81843e5bee1f94c444768bee1eb","authToken":"c2413810-09ad-4f37-befa-3a2ee61e6999"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"03f5665c-34a4-4c20-ae46-58333800d492","requestId":"0","sessionId":"8b378ca0-4ff8-43ed-8009-ede1f0f87103","userId":"58d8fa5f23791d04d0b1fde6"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: Available
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: SEND:{"@class":".AuthenticationRequest","userName":"c","password":"c","requestId":"636277989894973177_0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".AuthenticationResponse","authToken":"d3c7285c-b8ad-43f8-ba9d-d916c7fc5588","displayName":"c","newPlayer":false,"requestId":"636277989894973177_0","userId":"58d8fa5f23791d04d0b1fde6"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Authentication Successful...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| Attempting Matchmaking...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: SEND:{"@class":".MatchmakingRequest","matchShortCode":"MATCH","skill":0,"requestId":"636277989920985694_1"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".MatchmakingResponse","requestId":"636277989920985694_1"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".MatchFoundMessage","accessToken":"KzB24p9jXCqD0V0UQ9Xx6odRpsNHeCiUCjzfd2FKdL9WwOIMRgW+N/FfoYo6O0m1Q1BfutcEye+7OrgvcOu1e5k1qXRl23j9QAQdhSXNnu64h3N9DovFytiqxu4Nvg7BltMBwdHuumZZh1vVIHKaNlxW6Z3DgFwqjv9Y2+RO/Ed8JesC1yfvhCKF+qyHnXXaUN+3j79VA3xEmkbv9bVQ/fdQHCYQuM74eyU2TdOIdFnouO4YtBmXNXrxYNEoT1Ddh4O6dwU/IUW4kNojwTGgFF/qsvLd71Q3biMjZzkK6xI5a50h5pjJCZRANDvWZDuRyqAFpNiIw2TXytfacVbwKWktmeLDU5a3633vFjcATcQ=","gameId":308282,"host":"gsp-aeu-rt04.gamesparks.net","matchData":{},"matchId":"58f124c09a8e0504bf5e916c","matchShortCode":"MATCH","messageId":"58f124c09a8e0504bf5e917b","notification":true,"participants":[{"externalIds":{ },"id":"58d8fcc123791d04d0b24d12","online":true,"peerId":2},{"displayName":"c","externalIds":{ },"id":"58d8fa5f23791d04d0b1fde6","online":true,"peerId":1}],"playerId":"58d8fa5f23791d04d0b1fde6","port":5700,"summary":"MatchFoundMessage"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| Creating New RT Session Instance...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Starting Session
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| RT Session Connected...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| Player 2 Connected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.214134 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 603.
+Total: 1.398400 ms (FindLiveObjects: 0.043517 ms CreateObjectMapping: 0.047898 ms MarkObjects: 1.295886 ms  DeleteObjects: 0.010222 ms)
+
+GC| Found 2 Players...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.796165 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 682.
+Total: 1.111886 ms (FindLiveObjects: 0.033003 ms CreateObjectMapping: 0.031250 ms MarkObjects: 1.041206 ms  DeleteObjects: 0.006133 ms)
+
+GS: Connecting to:wss://preview-o308282J6vRk.ws.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+IPv6 on!
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class": ".AuthenticatedConnectResponse","connectUrl": "wss://gsp-aeu000-se02.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=","requestId": "0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: Connecting to:wss://gsp-aeu000-se02.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+IPv6 on!
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"9a49076d-b70a-4f42-a92c-15e229707ceb","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"ZBwNgxb9SYazj4ZnOvhATduIAdYwsg6eIMFfQilf9Cc=","os":"WINDOWS","platform":"WindowsPlayer","deviceId":"cd0a8a5452a1b81843e5bee1f94c444768bee1eb","authToken":"d3c7285c-b8ad-43f8-ba9d-d916c7fc5588","sessionId":"8b378ca0-4ff8-43ed-8009-ede1f0f87103"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"4fc20c4a-3d5b-48e4-90e7-c895e1b03578","requestId":"0","sessionId":"8b378ca0-4ff8-43ed-8009-ede1f0f87103","userId":"58d8fa5f23791d04d0b1fde6"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: Available
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: SEND:{"@class":".AuthenticationRequest","userName":"d","password":"d","requestId":"636277990349562891_2"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".AuthenticationResponse","authToken":"23423174-bf43-41d7-aaec-7566d600e1d9","displayName":"d","newPlayer":false,"requestId":"636277990349562891_2","userId":"58d8fa6423791d04d0b1fe85"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Authentication Successful...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| Attempting Matchmaking...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: SEND:{"@class":".MatchmakingRequest","matchShortCode":"MATCH","skill":0,"requestId":"636277990401612424_3"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".MatchmakingResponse","requestId":"636277990401612424_3"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".MatchFoundMessage","accessToken":"qrOxBrxdytBZIYxR0sN9soMRnHB+nHIotSOrmMLG4lg7bGTiMAcxgDUCfay5FBGQelAakGI45fu3qRDte4qhWZk1qXRl23j9QAQdhSXNnu5LHRr+DBkqKyOqm4D58CxvA9jDjsB/7qcHyouTPNHXNjzPK4Ad1qOGSfmByZ3Tg0B8JesC1yfvhCKF+qyHnXXaUN+3j79VA3xEmkbv9bVQ/fdQHCYQuM74eyU2TdOIdFlSOWiSmeI4RY5tqbSQtVkbkkH1g60MfYYMrjqf6IXWDBQ0mVc8d/0P9mv5NHEMVZbRWBXena5GggdNV1lQletdyqAFpNiIw2TXytfacVbwKWktmeLDU5a3633vFjcATcQ=","gameId":308282,"host":"gsp-aeu-rt03.gamesparks.net","matchData":{},"matchId":"58f124efd23ed204b6b23348","matchShortCode":"MATCH","messageId":"58f124efd23ed204b6b2334f","notification":true,"participants":[{"displayName":"d","externalIds":{ },"id":"58d8fa6423791d04d0b1fe85","online":true,"peerId":2},{"externalIds":{ },"id":"58d8fcc123791d04d0b24d12","online":true,"peerId":1}],"playerId":"58d8fa6423791d04d0b1fe85","port":5900,"summary":"MatchFoundMessage"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| Creating New RT Session Instance...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Starting Session
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| RT Session Connected...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.734831 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 611.
+Total: 2.571911 ms (FindLiveObjects: 0.045561 ms CreateObjectMapping: 0.062793 ms MarkObjects: 2.449829 ms  DeleteObjects: 0.012850 ms)
+
+GC| Found 2 Players...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.560470 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 689.
+Total: 1.391390 ms (FindLiveObjects: 0.034755 ms CreateObjectMapping: 0.037968 ms MarkObjects: 1.311073 ms  DeleteObjects: 0.007009 ms)
+
+GS: Connecting to:wss://preview-o308282J6vRk.ws.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+IPv6 on!
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class": ".AuthenticatedConnectResponse","connectUrl": "wss://gsp-aeu000-se03.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=","requestId": "0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: Connecting to:wss://gsp-aeu000-se03.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+IPv6 on!
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"4a3d6d1a-d52f-4621-9bda-860d6b42deb7","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"4ygSfwL2Hqx+bt193BtV0+dStB2oqE5JZ1KVfOsgtzo=","os":"WINDOWS","platform":"WindowsPlayer","deviceId":"cd0a8a5452a1b81843e5bee1f94c444768bee1eb","authToken":"23423174-bf43-41d7-aaec-7566d600e1d9","sessionId":"8b378ca0-4ff8-43ed-8009-ede1f0f87103"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"fa659360-7aa4-4eb4-8486-500724491660","requestId":"0","sessionId":"8b378ca0-4ff8-43ed-8009-ede1f0f87103","userId":"58d8fa6423791d04d0b1fe85"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: Available
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: SEND:{"@class":".AuthenticationRequest","userName":"d","password":"d","requestId":"636277990692234172_4"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".AuthenticationResponse","authToken":"d02a98c5-a57f-43f6-9425-41ad33147f9c","displayName":"d","newPlayer":false,"requestId":"636277990692234172_4","userId":"58d8fa6423791d04d0b1fe85"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Authentication Successful...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| Attempting Matchmaking...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: SEND:{"@class":".MatchmakingRequest","matchShortCode":"MATCH","skill":0,"requestId":"636277990699234682_5"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".MatchmakingResponse","requestId":"636277990699234682_5"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".MatchFoundMessage","accessToken":"+doaV61DL3/14Oh3cilPNA8PD7zAWnF75BtWtf1n9f6bfeX62p3+G3E34eOCmvVhelAakGI45fu3qRDte4qhWZk1qXRl23j9QAQdhSXNnu5S7ABf68zK9PrGtUdMjm/Meqr+rYFfDL0CPCz/0Jyg4hyU8lmp2/9bhK00wYaxDbh8JesC1yfvhCKF+qyHnXXaUN+3j79VA3xEmkbv9bVQ/fdQHCYQuM74eyU2TdOIdFlSOWiSmeI4RY5tqbSQtVkbkkH1g60MfYYMrjqf6IXWDBQ0mVc8d/0P9mv5NHEMVZZyhb7HroBfCw0EatksRFGxyqAFpNiIw2TXytfacVbwKWktmeLDU5a3633vFjcATcQ=","gameId":308282,"host":"gsp-aeu-rt03.gamesparks.net","matchData":{},"matchId":"58f1250d9a8e0504bf5e9dd0","matchShortCode":"MATCH","messageId":"58f1250d9a8e0504bf5e9dd7","notification":true,"participants":[{"displayName":"d","externalIds":{ },"id":"58d8fa6423791d04d0b1fe85","online":true,"peerId":2},{"externalIds":{ },"id":"58d8fcc123791d04d0b24d12","online":true,"peerId":1}],"playerId":"58d8fa6423791d04d0b1fe85","port":5750,"summary":"MatchFoundMessage"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".MatchFoundMessage","accessToken":"+doaV61DL3/14Oh3cilPNA8PD7zAWnF75BtWtf1n9f6bfeX62p3+G3E34eOCmvVhelAakGI45fu3qRDte4qhWZk1qXRl23j9QAQdhSXNnu5S7ABf68zK9PrGtUdMjm/Meqr+rYFfDL0CPCz/0Jyg4hyU8lmp2/9bhK00wYaxDbh8JesC1yfvhCKF+qyHnXXaUN+3j79VA3xEmkbv9bVQ/fdQHCYQuM74eyU2TdOIdFlSOWiSmeI4RY5tqbSQtVkbkkH1g60MfYYMrjqf6IXWDBQ0mVc8d/0P9mv5NHEMVZZyhb7HroBfCw0EatksRFGxyqAFpNiIw2TXytfacVbwKWktmeLDU5a3633vFjcATcQ=","gameId":308282,"host":"gsp-aeu-rt03.gamesparks.net","matchData":{},"matchId":"58f1250d9a8e0504bf5e9dd0","matchShortCode":"MATCH","messageId":"58f1250d9a8e0504bf5e9dd7","notification":true,"participants":[{"displayName":"d","externalIds":{ },"id":"58d8fa6423791d04d0b1fe85","online":true,"peerId":2},{"externalIds":{ },"id":"58d8fcc123791d04d0b24d12","online":true,"peerId":1}],"playerId":"58d8fa6423791d04d0b1fe85","port":5750,"summary":"MatchFoundMessage"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| Creating New RT Session Instance...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Starting Session
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| RT Session Connected...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| Player 1 Connected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.192495 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 618.
+Total: 5.313804 ms (FindLiveObjects: 0.081777 ms CreateObjectMapping: 0.099009 ms MarkObjects: 5.110236 ms  DeleteObjects: 0.021904 ms)
+
+GC| Found 2 Players...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.498552 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 696.
+Total: 5.520877 ms (FindLiveObjects: 0.087034 ms CreateObjectMapping: 0.106311 ms MarkObjects: 5.301538 ms  DeleteObjects: 0.024241 ms)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+GS: Connecting to:wss://preview-o308282J6vRk.ws.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IPv6 on!
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IPv6 on!GS: RECV:{"@class": ".AuthenticatedConnectResponse","connectUrl": "wss://gsp-aeu000-se02.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=","requestId": "0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+GS: Connecting to:wss://gsp-aeu000-se02.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"eb91e320-ec19-495e-a129-37a9296af1d2","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"MzEKmOjJuL+8Hg+gO9rtUgr/WPfXled3uOpixnDbgw8=","os":"WINDOWS","platform":"WindowsPlayer","deviceId":"cd0a8a5452a1b81843e5bee1f94c444768bee1eb","authToken":"d02a98c5-a57f-43f6-9425-41ad33147f9c","sessionId":"8b378ca0-4ff8-43ed-8009-ede1f0f87103"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"f0a03d0a-06f9-49e0-916e-6e1bf57f8b9c","requestId":"0","sessionId":"8b378ca0-4ff8-43ed-8009-ede1f0f87103","userId":"58d8fa6423791d04d0b1fe85"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: Available
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+GS: SEND:{"@class":".AuthenticationRequest","userName":"d","password":"d","requestId":"636277992095309678_6"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+GS: RECV:{"@class":".AuthenticationResponse","authToken":"8d9915d5-191b-4b7e-9714-69877bd57064","displayName":"d","newPlayer":false,"requestId":"636277992095309678_6","userId":"58d8fa6423791d04d0b1fe85"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Authentication Successful...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+GSM| Attempting Matchmaking...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+GS: SEND:{"@class":".MatchmakingRequest","matchShortCode":"MATCH","skill":0,"requestId":"636277992101307002_7"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+GS: RECV:{"@class":".MatchmakingResponse","requestId":"636277992101307002_7"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+GS: RECV:{"@class":".MatchFoundMessage","accessToken":"6L5Yfnjkjgp8tj3LFFdA6PZXiztZMr7Yg/1V/HsP8ebd9thHRZDsh08fYQxsVRsQQ1BfutcEye+7OrgvcOu1e5k1qXRl23j9QAQdhSXNnu5F/oLHn5tCN3MBIb0xie5Ma7FeVkbFdZr8JOr6eLOL1oJnQoWEd5LgET10yAru+Kl8JesC1yfvhCKF+qyHnXXaUN+3j79VA3xEmkbv9bVQ/fdQHCYQuM74eyU2TdOIdFlSOWiSmeI4RY5tqbSQtVkbkkH1g60MfYYMrjqf6IXWDF/qsvLd71Q3biMjZzkK6xI5a50h5pjJCZRANDvWZDuRyqAFpNiIw2TXytfacVbwKWktmeLDU5a3633vFjcATcQ=","gameId":308282,"host":"gsp-aeu-rt04.gamesparks.net","matchData":{},"matchId":"58f1259d08987a04d2426ba7","matchShortCode":"MATCH","messageId":"58f1259d08987a04d2426bab","notification":true,"participants":[{"displayName":"d","externalIds":{ },"id":"58d8fa6423791d04d0b1fe85","online":true,"peerId":1},{"externalIds":{ },"id":"58d8fcc123791d04d0b24d12","online":true,"peerId":2}],"playerId":"58d8fa6423791d04d0b1fe85","port":5700,"summary":"MatchFoundMessage"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".MatchFoundMessage","accessToken":"6L5Yfnjkjgp8tj3LFFdA6PZXiztZMr7Yg/1V/HsP8ebd9thHRZDsh08fYQxsVRsQQ1BfutcEye+7OrgvcOu1e5k1qXRl23j9QAQdhSXNnu5F/oLHn5tCN3MBIb0xie5Ma7FeVkbFdZr8JOr6eLOL1oJnQoWEd5LgET10yAru+Kl8JesC1yfvhCKF+qyHnXXaUN+3j79VA3xEmkbv9bVQ/fdQHCYQuM74eyU2TdOIdFlSOWiSmeI4RY5tqbSQtVkbkkH1g60MfYYMrjqf6IXWDF/qsvLd71Q3biMjZzkK6xI5a50h5pjJCZRANDvWZDuRyqAFpNiIw2TXytfacVbwKWktmeLDU5a3633vFjcATcQ=","gameId":308282,"host":"gsp-aeu-rt04.gamesparks.net","matchData":{},"matchId":"58f1259d08987a04d2426ba7","matchShortCode":"MATCH","messageId":"58f1259d08987a04d2426bab","notification":true,"participants":[{"displayName":"d","externalIds":{ },"id":"58d8fa6423791d04d0b1fe85","online":true,"peerId":1},{"externalIds":{ },"id":"58d8fcc123791d04d0b24d12","online":true,"peerId":2}],"playerId":"58d8fa6423791d04d0b1fe85","port":5700,"summary":"MatchFoundMessage"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".MatchFoundMessage","accessToken":"6L5Yfnjkjgp8tj3LFFdA6PZXiztZMr7Yg/1V/HsP8ebd9thHRZDsh08fYQxsVRsQQ1BfutcEye+7OrgvcOu1e5k1qXRl23j9QAQdhSXNnu5F/oLHn5tCN3MBIb0xie5Ma7FeVkbFdZr8JOr6eLOL1oJnQoWEd5LgET10yAru+Kl8JesC1yfvhCKF+qyHnXXaUN+3j79VA3xEmkbv9bVQ/fdQHCYQuM74eyU2TdOIdFlSOWiSmeI4RY5tqbSQtVkbkkH1g60MfYYMrjqf6IXWDF/qsvLd71Q3biMjZzkK6xI5a50h5pjJCZRANDvWZDuRyqAFpNiIw2TXytfacVbwKWktmeLDU5a3633vFjcATcQ=","gameId":308282,"host":"gsp-aeu-rt04.gamesparks.net","matchData":{},"matchId":"58f1259d08987a04d2426ba7","matchShortCode":"MATCH","messageId":"58f1259d08987a04d2426bab","notification":true,"participants":[{"displayName":"d","externalIds":{ },"id":"58d8fa6423791d04d0b1fe85","online":true,"peerId":1},{"externalIds":{ },"id":"58d8fcc123791d04d0b24d12","online":true,"peerId":2}],"playerId":"58d8fa6423791d04d0b1fe85","port":5700,"summary":"MatchFoundMessage"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| Creating New RT Session Instance...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Starting Session
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| RT Session Connected...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.721981 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 625.
+Total: 3.347632 ms (FindLiveObjects: 0.047898 ms CreateObjectMapping: 0.062793 ms MarkObjects: 3.224966 ms  DeleteObjects: 0.011682 ms)
+
+GC| Found 2 Players...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.486577 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 703.
+Total: 1.706235 ms (FindLiveObjects: 0.031834 ms CreateObjectMapping: 0.029790 ms MarkObjects: 1.637308 ms  DeleteObjects: 0.007009 ms)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+GS: Connecting to:wss://preview-o308282J6vRk.ws.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+IPv6 on!
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+GS: RECV:{"@class": ".AuthenticatedConnectResponse","connectUrl": "wss://gsp-aeu000-se03.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=","requestId": "0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: Connecting to:wss://gsp-aeu000-se03.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+IPv6 on!
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"82aa7ccc-6716-4747-9df8-1ba07a9e3369","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"fr8RrtRAAWUeGz+ondiOmjJV6c48QRlqinC62SzH48Q=","os":"WINDOWS","platform":"WindowsPlayer","deviceId":"cd0a8a5452a1b81843e5bee1f94c444768bee1eb","authToken":"8d9915d5-191b-4b7e-9714-69877bd57064","sessionId":"8b378ca0-4ff8-43ed-8009-ede1f0f87103"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"81cb5c40-ba0e-4bf0-b27c-97a6f206af98","requestId":"0","sessionId":"8b378ca0-4ff8-43ed-8009-ede1f0f87103","userId":"58d8fa6423791d04d0b1fe85"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: Available
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+GS: SEND:{"@class":".AuthenticationRequest","userName":"d","password":"d","requestId":"636277992357566038_8"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+GS: RECV:{"@class":".AuthenticationResponse","authToken":"cb250e92-f6c1-4ed9-a4bb-a000d1aa0a95","displayName":"d","newPlayer":false,"requestId":"636277992357566038_8","userId":"58d8fa6423791d04d0b1fe85"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Authentication Successful...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+GSM| Attempting Matchmaking...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+GS: SEND:{"@class":".MatchmakingRequest","matchShortCode":"MATCH","skill":0,"requestId":"636277992366624218_9"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+GS: RECV:{"@class":".MatchmakingResponse","requestId":"636277992366624218_9"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+GS: RECV:{"@class":".MatchFoundMessage","accessToken":"U+/1gqD6Ft1Th00he+D0qYB7Cd3xZ5A658/+/53+Veh9hjdtz6M6M67CU0UZ+eZqQ1BfutcEye+7OrgvcOu1e5k1qXRl23j9QAQdhSXNnu6BJgTXKaehFipDBJrkArTtVA8qOM9oZ105CUCS48Ks3Ah4GFQTyP6SYcS5CgDBp598JesC1yfvhCKF+qyHnXXaUN+3j79VA3xEmkbv9bVQ/fdQHCYQuM74eyU2TdOIdFlSOWiSmeI4RY5tqbSQtVkbkkH1g60MfYYMrjqf6IXWDF/qsvLd71Q3biMjZzkK6xJ3SmHQZ4Jb2TArq6/AS/KbyqAFpNiIw2TXytfacVbwKWktmeLDU5a3633vFjcATcQ=","gameId":308282,"host":"gsp-aeu-rt04.gamesparks.net","matchData":{},"matchId":"58f125b908987a04d242854c","matchShortCode":"MATCH","messageId":"58f125b908987a04d2428553","notification":true,"participants":[{"displayName":"d","externalIds":{ },"id":"58d8fa6423791d04d0b1fe85","online":true,"peerId":1},{"externalIds":{ },"id":"58d8fcc123791d04d0b24d12","online":true,"peerId":2}],"playerId":"58d8fa6423791d04d0b1fe85","port":5850,"summary":"MatchFoundMessage"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".MatchFoundMessage","accessToken":"U+/1gqD6Ft1Th00he+D0qYB7Cd3xZ5A658/+/53+Veh9hjdtz6M6M67CU0UZ+eZqQ1BfutcEye+7OrgvcOu1e5k1qXRl23j9QAQdhSXNnu6BJgTXKaehFipDBJrkArTtVA8qOM9oZ105CUCS48Ks3Ah4GFQTyP6SYcS5CgDBp598JesC1yfvhCKF+qyHnXXaUN+3j79VA3xEmkbv9bVQ/fdQHCYQuM74eyU2TdOIdFlSOWiSmeI4RY5tqbSQtVkbkkH1g60MfYYMrjqf6IXWDF/qsvLd71Q3biMjZzkK6xJ3SmHQZ4Jb2TArq6/AS/KbyqAFpNiIw2TXytfacVbwKWktmeLDU5a3633vFjcATcQ=","gameId":308282,"host":"gsp-aeu-rt04.gamesparks.net","matchData":{},"matchId":"58f125b908987a04d242854c","matchShortCode":"MATCH","messageId":"58f125b908987a04d2428553","notification":true,"participants":[{"displayName":"d","externalIds":{ },"id":"58d8fa6423791d04d0b1fe85","online":true,"peerId":1},{"externalIds":{ },"id":"58d8fcc123791d04d0b24d12","online":true,"peerId":2}],"playerId":"58d8fa6423791d04d0b1fe85","port":5850,"summary":"MatchFoundMessage"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".MatchFoundMessage","accessToken":"U+/1gqD6Ft1Th00he+D0qYB7Cd3xZ5A658/+/53+Veh9hjdtz6M6M67CU0UZ+eZqQ1BfutcEye+7OrgvcOu1e5k1qXRl23j9QAQdhSXNnu6BJgTXKaehFipDBJrkArTtVA8qOM9oZ105CUCS48Ks3Ah4GFQTyP6SYcS5CgDBp598JesC1yfvhCKF+qyHnXXaUN+3j79VA3xEmkbv9bVQ/fdQHCYQuM74eyU2TdOIdFlSOWiSmeI4RY5tqbSQtVkbkkH1g60MfYYMrjqf6IXWDF/qsvLd71Q3biMjZzkK6xJ3SmHQZ4Jb2TArq6/AS/KbyqAFpNiIw2TXytfacVbwKWktmeLDU5a3633vFjcATcQ=","gameId":308282,"host":"gsp-aeu-rt04.gamesparks.net","matchData":{},"matchId":"58f125b908987a04d242854c","matchShortCode":"MATCH","messageId":"58f125b908987a04d2428553","notification":true,"participants":[{"displayName":"d","externalIds":{ },"id":"58d8fa6423791d04d0b1fe85","online":true,"peerId":1},{"externalIds":{ },"id":"58d8fcc123791d04d0b24d12","online":true,"peerId":2}],"playerId":"58d8fa6423791d04d0b1fe85","port":5850,"summary":"MatchFoundMessage"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".MatchFoundMessage","accessToken":"U+/1gqD6Ft1Th00he+D0qYB7Cd3xZ5A658/+/53+Veh9hjdtz6M6M67CU0UZ+eZqQ1BfutcEye+7OrgvcOu1e5k1qXRl23j9QAQdhSXNnu6BJgTXKaehFipDBJrkArTtVA8qOM9oZ105CUCS48Ks3Ah4GFQTyP6SYcS5CgDBp598JesC1yfvhCKF+qyHnXXaUN+3j79VA3xEmkbv9bVQ/fdQHCYQuM74eyU2TdOIdFlSOWiSmeI4RY5tqbSQtVkbkkH1g60MfYYMrjqf6IXWDF/qsvLd71Q3biMjZzkK6xJ3SmHQZ4Jb2TArq6/AS/KbyqAFpNiIw2TXytfacVbwKWktmeLDU5a3633vFjcATcQ=","gameId":308282,"host":"gsp-aeu-rt04.gamesparks.net","matchData":{},"matchId":"58f125b908987a04d242854c","matchShortCode":"MATCH","messageId":"58f125b908987a04d2428553","notification":true,"participants":[{"displayName":"d","externalIds":{ },"id":"58d8fa6423791d04d0b1fe85","online":true,"peerId":1},{"externalIds":{ },"id":"58d8fcc123791d04d0b24d12","online":true,"peerId":2}],"playerId":"58d8fa6423791d04d0b1fe85","port":5850,"summary":"MatchFoundMessage"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| Creating New RT Session Instance...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Starting Session
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| RT Session Connected...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.419111 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 632.
+Total: 2.012026 ms (FindLiveObjects: 0.036215 ms CreateObjectMapping: 0.033587 ms MarkObjects: 1.924406 ms  DeleteObjects: 0.017231 ms)
+
+GC| Found 2 Players...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.572152 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 710.
+Total: 2.030133 ms (FindLiveObjects: 0.031542 ms CreateObjectMapping: 0.029790 ms MarkObjects: 1.962083 ms  DeleteObjects: 0.006425 ms)
+
+GS: Connecting to:wss://preview-o308282J6vRk.ws.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+IPv6 on!
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class": ".AuthenticatedConnectResponse","connectUrl": "wss://gsp-aeu000-se03.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=","requestId": "0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+IPv6 on!
+GS: Connecting to:wss://gsp-aeu000-se03.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"079893a8-0bfe-4ce8-b19d-a7971fec554b","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"2v3QwF22H+QSDCQN12YnlA/z8jYQewGnUy9SOWdAza0=","os":"WINDOWS","platform":"WindowsPlayer","deviceId":"cd0a8a5452a1b81843e5bee1f94c444768bee1eb","authToken":"cb250e92-f6c1-4ed9-a4bb-a000d1aa0a95","sessionId":"8b378ca0-4ff8-43ed-8009-ede1f0f87103"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"28a756e8-aee8-4463-ab16-e4490d2eba1e","requestId":"0","sessionId":"8b378ca0-4ff8-43ed-8009-ede1f0f87103","userId":"58d8fa6423791d04d0b1fe85"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: Available
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| Player 2 Disconnected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| Player 1 Disconnected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| Player 1 Disconnected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| Player 2 Disconnected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| Player 2 Disconnected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
