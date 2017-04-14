@@ -67,7 +67,7 @@ namespace TBD {
         private Text myScoreText;
         private int myScore;
 
-        public void Setup(Transform _spawnPos, bool _isPlayer, float _peerID) {
+        public void Setup(Transform _spawnPos, bool _isPlayer, int _peerID) {
             peerID = _peerID;
             spawnPos = _spawnPos; // set the spawn position
             isPlayer = _isPlayer; // set the player

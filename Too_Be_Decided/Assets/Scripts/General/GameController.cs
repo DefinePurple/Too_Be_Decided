@@ -54,7 +54,6 @@ namespace TBD {
                             // add the new tank object to the corresponding reference in the list
                             playerList[i] = newPlayer.GetComponent<Player_Master>();
                         } else {
-                            int tempPeerID = GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].peerID;
                             //Creates the enemy player
                             GameObject enemyPlayer = Instantiate(enemyPrefabs[i], allSpawners[j].gameObject.transform.position, allSpawners[j].gameObject.transform.rotation) as GameObject;
 
