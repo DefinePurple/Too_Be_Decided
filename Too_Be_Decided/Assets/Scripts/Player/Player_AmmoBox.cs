@@ -6,7 +6,7 @@ namespace TBD{
 	public class Player_AmmoBox : MonoBehaviour {
 
         private Player_Master playerMaster;
-        private int ammoCurrentCarried;
+        public int ammoCurrentCarried;
         public int maxQuantity;
 
         void OnEnable() {
