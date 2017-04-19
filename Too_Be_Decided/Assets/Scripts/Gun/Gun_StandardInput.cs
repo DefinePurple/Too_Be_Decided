@@ -6,9 +6,10 @@ namespace TBD {
     public class Gun_StandardInput : MonoBehaviour {
 
         private Gun_Master gunMaster;
+        public Player_Master playerMaster;
         private float nextAttack;
         public float attackRate = 0.3f;
-        private Transform myTransform;
+        //private Transform myTransform;
         public string attackButtonName;
         public string reloadButtonName;
 
@@ -23,13 +24,14 @@ namespace TBD {
 
         void SetInitial() {
             gunMaster = GetComponent<Gun_Master>();
-            myTransform = transform;
+            playerMaster = GetComponentInParent<Player_Master>();
+           // myTransform = transform;
             gunMaster.isGunLoaded = true;
         }
 
 
         void CheckFire() {
-            if(Time.time > nextAttack) {
+            if(Time.time > nextAttack && playerMaster.IsPlayer()) {
                 if (Input.GetButton(attackButtonName)) {
                     AttemptFire();
                 }

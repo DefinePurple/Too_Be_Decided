@@ -10,7 +10,6 @@ namespace TBD {
         private Transform camTransform;
         private RaycastHit hit;
         public float range = 400;
-        private float offsetFactor = 7;
         private Vector3 StartPosition;
 
         void OnEnable() {
@@ -31,10 +30,10 @@ namespace TBD {
         void OpenFire() {
             Debug.Log("Open Fire Called");
             if(Physics.Raycast(camTransform.position, camTransform.forward, out hit, range)) {
-                gunMaster.CallEventShotDefault(hit.point, hit.transform);
+                gunMaster.CallEventShotDefault(hit.transform);
                 if(hit.transform.CompareTag(GameManager_References._enemyTag)) {
                     Debug.Log("Shot Enemy");
-                    gunMaster.CallEventShotEnemy(hit.point, hit.transform);
+                    gunMaster.CallEventShotEnemy(hit.transform);
                 }
             }
         }

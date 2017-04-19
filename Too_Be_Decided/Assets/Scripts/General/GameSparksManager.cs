@@ -144,15 +144,15 @@ namespace TBD {
                     GameController.Instance().UpdateOpponents(_packet);
                     break;
 
-                //case 3:
-                //    GameController.Instance().InstantiateOpponentShells(_packet);
-                //    break;
+                case 3:
+                    GameController.Instance().ReceiveHit(_packet);
+                    break;
 
                 //case 4:
                 //    GameController.Instance().UpdateOpponentShells(_packet);
                 //    break;
 
-                case 3:
+                case 4:
                     GameController.Instance().RegisterOpponentCollision(_packet);
                     break;
 

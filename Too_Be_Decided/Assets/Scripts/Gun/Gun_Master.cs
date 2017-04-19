@@ -11,7 +11,7 @@ namespace TBD {
         public event GeneralEventHandler EventReload;
 
 
-        public delegate void GunHitEventHandler(Vector3 hitPosition, Transform hitTransform);
+        public delegate void GunHitEventHandler(Transform hitTransform);
         public event GunHitEventHandler EventShotDefault;
         public event GunHitEventHandler EventShotEnemy;
 
@@ -36,14 +36,14 @@ namespace TBD {
                 EventReload();
         }
 
-        public void CallEventShotDefault(Vector3 hPos, Transform hTransform) {
+        public void CallEventShotDefault(Transform hTransform) {
             if (EventShotDefault != null)
-                EventShotDefault(hPos, hTransform);
+                EventShotDefault(hTransform);
         }
 
-        public void CallEventShotEnemy(Vector3 hPos, Transform hTransform) {
+        public void CallEventShotEnemy(Transform hTransform) {
             if (EventShotEnemy != null)
-                EventShotEnemy(hPos, hTransform);
+                EventShotEnemy(hTransform);
         }
 
         public void CallEventAmmoChanged(int currentAmmo, int carriedAmmo) {
@@ -52,4 +52,3 @@ namespace TBD {
         }
     }
 }
-
