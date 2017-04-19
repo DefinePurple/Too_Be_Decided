@@ -1,0 +1,291 @@
+Initialize engine version: 5.5.1f1 (88d00a7498cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 740 (ID=0xfc8)
+    Vendor:   NVIDIA
+    VRAM:     2017 MB
+    Driver:   21.21.13.7653
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\BouncyCastle_GameSparks.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\BouncyCastle_GameSparks.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\GameSparks.Api.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\GameSparks.Api.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\GameSparks.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\GameSparks.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\GameSparksRT.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\GameSparksRT.dll into Unity Child Domain
+- Completed reload, in  0.026 seconds
+Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\System.dll (this message is harmless)
+desktop: 1440x900 60Hz; virtual: 3360x1080 at -1440,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 4.187899 ms
+GS: Connecting to:wss://preview-o308282J6vRk.ws.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+IPv6 on!
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2fec -> priority: 1 
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class": ".AuthenticatedConnectResponse","connectUrl": "wss://gsp-aeu000-se02.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=","requestId": "0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: Connecting to:wss://gsp-aeu000-se02.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+IPv6 on!
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"609821d4-68c3-4000-8232-3e4cd87f0f66","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"UmSjuo2C48uIKlEUISICJNsC6nN8dAxaciHBNmErHbI=","os":"WINDOWS","platform":"WindowsPlayer","deviceId":"cd0a8a5452a1b81843e5bee1f94c444768bee1eb","authToken":"6fce2be9-7c3d-4977-92c2-fd6bbff73b0f"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"c4e704cb-3f76-4dab-8bc5-3ed1cc11998c","requestId":"0","sessionId":"609821d4-68c3-4000-8232-3e4cd87f0f66","userId":"58f7ca859a8e0504bc887620"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: Available
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: SEND:{"@class":".AuthenticationRequest","userName":"d","password":"d","requestId":"636282349881738222_0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".AuthenticationResponse","authToken":"ffacc734-e424-4ffe-a49c-e57e8043a65d","displayName":"d","newPlayer":false,"requestId":"636282349881738222_0","userId":"58f7ca87d23ed204bf724cae"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Authentication Successful...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| Attempting Matchmaking...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: SEND:{"@class":".MatchmakingRequest","matchShortCode":"MATCH","skill":0,"requestId":"636282350007809564_1"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".MatchmakingResponse","requestId":"636282350007809564_1"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".MatchFoundMessage","accessToken":"lLTdVyChrjxvlfTfkIFTInmRmnutCD6zB8K3ufio0IIW9jtZUs9f+exiF+ClGFRTelAakGI45fu3qRDte4qhWZk1qXRl23j9QAQdhSXNnu4cYZqC5+EvRkyzxCeYUrkbcWI2yYrTv/nmDkEIfcUhsBqUarQXVjdQlnyS6cCTITx8JesC1yfvhCKF+qyHnXXaUN+3j79VA3xEmkbv9bVQ/Song94wG9wZkHatxQXbH2DEjL498GjbQixmA/kiOObpwnTjBkBanIyun9y5+dTT61/qsvLd71Q3biMjZzkK6xJ3SmHQZ4Jb2TArq6/AS/KbyqAFpNiIw2TXytfacVbwKWktmeLDU5a3633vFjcATcQ=","gameId":308282,"host":"gsp-aeu-rt04.gamesparks.net","matchData":{},"matchId":"58f7cbe8d23ed204bf729252","matchShortCode":"MATCH","messageId":"58f7cbe8d23ed204bf729259","notification":true,"participants":[{"displayName":"d","externalIds":{ },"id":"58f7ca87d23ed204bf724cae","online":true,"peerId":2},{"displayName":"c","externalIds":{ },"id":"58f7ca859a8e0504bc887620","online":true,"peerId":1}],"playerId":"58f7ca87d23ed204bf724cae","port":5850,"summary":"MatchFoundMessage"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| Creating New RT Session Instance...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Starting Session
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| RT Session Connected...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.364572 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 568.
+Total: 1.875924 ms (FindLiveObjects: 0.044685 ms CreateObjectMapping: 0.057536 ms MarkObjects: 1.753549 ms  DeleteObjects: 0.011682 ms)
+
+GC| Found 2 Players...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting health to 100
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting health to 50
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting health to 50
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| Player 1 Connected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| Player 1 Disconnected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Shooting
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Open Fire Called
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Shooting
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Open Fire Called
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.198628 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 647.
+Total: 2.229029 ms (FindLiveObjects: 0.033879 ms CreateObjectMapping: 0.032126 ms MarkObjects: 2.149295 ms  DeleteObjects: 0.013434 ms)
+
+GS: Connecting to:wss://preview-o308282J6vRk.ws.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+IPv6 on!
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class": ".AuthenticatedConnectResponse","connectUrl": "wss://gsp-aeu000-se02.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=","requestId": "0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: Connecting to:wss://gsp-aeu000-se02.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+IPv6 on!
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"44cefc05-5bcd-4afe-9558-687ad0c685c6","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"EBgFqwbiVRgGyTkSKlPWZ8egl57MVXzGqgZ9I48GkzY=","os":"WINDOWS","platform":"WindowsPlayer","deviceId":"cd0a8a5452a1b81843e5bee1f94c444768bee1eb","authToken":"ffacc734-e424-4ffe-a49c-e57e8043a65d","sessionId":"609821d4-68c3-4000-8232-3e4cd87f0f66"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"60b304d3-0b71-4238-8491-4f98947ba581","requestId":"0","sessionId":"609821d4-68c3-4000-8232-3e4cd87f0f66","userId":"58f7ca87d23ed204bf724cae"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: Available
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: SEND:{"@class":".AuthenticationRequest","userName":"c","password":"c","requestId":"636282351123659194_2"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".AuthenticationResponse","authToken":"3b052567-ce12-4f13-b43b-49fe29edde1e","displayName":"c","newPlayer":false,"requestId":"636282351123659194_2","userId":"58f7ca859a8e0504bc887620"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Authentication Successful...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| Attempting Matchmaking...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: SEND:{"@class":".MatchmakingRequest","matchShortCode":"MATCH","skill":0,"requestId":"636282351131661806_3"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".MatchmakingResponse","requestId":"636282351131661806_3"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".MatchFoundMessage","accessToken":"g2CjmiDP1pG4umK8gvbxJLpKH870N09SH0qTN4VZBFLwnBiIE9P44BiCvXm1o4SSelAakGI45fu3qRDte4qhWZk1qXRl23j9QAQdhSXNnu6m7vTLlhwO8heDSdkiQdtQafvLIJUgph6Xy3yoiDXtBg0lTYJE7Ur5y0qZT0Fv+B98JesC1yfvhCKF+qyHnXXaUN+3j79VA3xEmkbv9bVQ/Song94wG9wZkHatxQXbH2DEjL498GjbQixmA/kiOObpwnTjBkBanIyun9y5+dTT61/qsvLd71Q3biMjZzkK6xJ3SmHQZ4Jb2TArq6/AS/KbyqAFpNiIw2TXytfacVbwKWktmeLDU5a3633vFjcATcQ=","gameId":308282,"host":"gsp-aeu-rt04.gamesparks.net","matchData":{},"matchId":"58f7cc5a9a8e0504bc88a10e","matchShortCode":"MATCH","messageId":"58f7cc5a9a8e0504bc88a115","notification":true,"participants":[{"displayName":"d","externalIds":{ },"id":"58f7ca87d23ed204bf724cae","online":true,"peerId":2},{"displayName":"c","externalIds":{ },"id":"58f7ca859a8e0504bc887620","online":true,"peerId":1}],"playerId":"58f7ca87d23ed204bf724cae","port":5850,"summary":"MatchFoundMessage"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".MatchFoundMessage","accessToken":"HY/GeX4iFh2OlqFRSJyE/LpKH870N09SH0qTN4VZBFL708c7MaJEn2ECTYxUvr/5Q1BfutcEye+7OrgvcOu1e5k1qXRl23j9QAQdhSXNnu6m7vTLlhwO8heDSdkiQdtQafvLIJUgph6Xy3yoiDXtBplCZMloWkpy05wXVriXKvB8JesC1yfvhCKF+qyHnXXaUN+3j79VA3xEmkbv9bVQ/Song94wG9wZkHatxQXbH2CdUyHmUE6ItJi8xGfbR3uryxPhEI8+2vptvBoNh7MW7l/qsvLd71Q3biMjZzkK6xJ3SmHQZ4Jb2TArq6/AS/KbyqAFpNiIw2TXytfacVbwKWktmeLDU5a3633vFjcATcQ=","gameId":308282,"host":"gsp-aeu-rt04.gamesparks.net","matchData":{},"matchId":"58f7cc5a9a8e0504bc88a10e","matchShortCode":"MATCH","messageId":"58f7cc5a9a8e0504bc88a11d","notification":true,"participants":[{"displayName":"d","externalIds":{ },"id":"58f7ca87d23ed204bf724cae","online":true,"peerId":2},{"displayName":"c","externalIds":{ },"id":"58f7ca859a8e0504bc887620","online":true,"peerId":1}],"playerId":"58f7ca859a8e0504bc887620","port":5850,"summary":"MatchFoundMessage"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| Creating New RT Session Instance...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Starting Session
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| RT Session Connected...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Object:get_name ()
+  at TBD.GameController.UpdateOpponents (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
+  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
+  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
+  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.173803 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 576.
+Total: 4.700179 ms (FindLiveObjects: 0.082069 ms CreateObjectMapping: 0.104558 ms MarkObjects: 4.492814 ms  DeleteObjects: 0.019568 ms)
+
+GC| Found 2 Players...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting health to 100
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting health to 50
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting health to 50
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| Player 2 Disconnected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
