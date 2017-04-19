@@ -15,10 +15,12 @@ namespace TBD {
         void OnEnable() {
             SetInitial();
             gunMaster.EventPlayerInput += OpenFire;
+            gunMaster.EventShotEnemy += Test;
         }
 
         void OnDisable() {
             gunMaster.EventPlayerInput -= OpenFire;
+            gunMaster.EventShotEnemy -= Test;
         }
 
         void SetInitial() {
@@ -36,6 +38,10 @@ namespace TBD {
                     gunMaster.CallEventShotEnemy(hit.transform);
                 }
             }
+        }
+
+        void Test(Transform hitTransform) {
+            Debug.Log("Test");
         }
     }
 }

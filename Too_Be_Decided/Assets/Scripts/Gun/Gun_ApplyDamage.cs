@@ -22,8 +22,11 @@ namespace TBD {
         }
 
         void ApplyDamage(Transform hitTransform) {
-            if (hitTransform.CompareTag(GameManager_References._enemyTag) && hitTransform.GetComponent<Player_Master>() != null) {
-                hitTransform.GetComponent<Player_Master>().SendHit(damage);
+            Debug.Log("Applying Damage outside");
+            if (hitTransform.GetComponent<Player_Master>() != null) {
+                Debug.Log("Applying Damage");
+                Player_Master playerMaster = hitTransform.GetComponent<Player_Master>();
+                playerMaster.SendHit(damage, playerMaster.GetPeerID());
             }
         }
     }

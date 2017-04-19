@@ -145,6 +145,7 @@ namespace TBD {
                     break;
 
                 case 3:
+                    Debug.Log("Package Received");
                     GameController.Instance().ReceiveHit(_packet);
                     break;
 

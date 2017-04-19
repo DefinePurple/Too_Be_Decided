@@ -23,7 +23,7 @@ namespace TBD {
         }
 
         void Start() {
-            StartCoroutine(TestHealthDeduction());
+            //StartCoroutine(TestHealthDeduction());
         }
 
         void SetInitial() {

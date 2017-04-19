@@ -101,10 +101,13 @@ namespace TBD {
         }
 
         //Function for Sending the damage on player hit
-        public void SendHit(int dmg) {
+        public void SendHit(int dmg, int peerID) {
+            Debug.Log("Sending hit");
             using (RTData data = RTData.Get()) {  // we put a using statement here so that we can dispose of the RTData objects once the packet is sent
+                Debug.Log("Inside rtdata");
                 data.SetInt(1, dmg); // add the position at key 1
-                GameSparksManager.Instance().GetRTSession().SendData(2, GameSparks.RT.GameSparksRT.DeliveryIntent.UNRELIABLE_SEQUENCED, data);// send the data
+                data.SetInt(2, peerID);
+                GameSparksManager.Instance().GetRTSession().SendData(3, GameSparks.RT.GameSparksRT.DeliveryIntent.UNRELIABLE_SEQUENCED, data);// send the data
             }
         }
 
@@ -116,7 +119,7 @@ namespace TBD {
                     data.SetVector3(1, new Vector4(this.transform.position.x, this.transform.position.y, this.transform.position.z)); // add the position at key 1
                     data.SetVector3(2, new Vector3(velocity.x, velocity.y, 0));
                     data.SetFloat(3, this.transform.eulerAngles.y); // add the rotation at key 2
-                    GameSparksManager.Instance().GetRTSession().SendData(3, GameSparks.RT.GameSparksRT.DeliveryIntent.UNRELIABLE_SEQUENCED, data);// send the data
+                    GameSparksManager.Instance().GetRTSession().SendData(2, GameSparks.RT.GameSparksRT.DeliveryIntent.UNRELIABLE_SEQUENCED, data);// send the data
                 }
                 prevPos = this.transform.position; // record position for any discrepancies
                 prevRot = this.transform.eulerAngles.y;
