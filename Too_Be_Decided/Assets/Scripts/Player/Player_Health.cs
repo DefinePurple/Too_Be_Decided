@@ -15,15 +15,13 @@ namespace TBD {
             SetUI();
             playerMaster.EventPlayerHealthIncrease += IncreaseHealth;
             playerMaster.EventPlayerHealthReduce += DeductHealth;
+            playerMaster.EventDeath += ResetPlayerHealth;
         }
 
         void OnDisable() {
             playerMaster.EventPlayerHealthIncrease -= IncreaseHealth;
             playerMaster.EventPlayerHealthReduce -= DeductHealth;
-        }
-
-        void Start() {
-            //StartCoroutine(TestHealthDeduction());
+            playerMaster.EventDeath += ResetPlayerHealth;
         }
 
         void SetInitial() {
@@ -31,20 +29,16 @@ namespace TBD {
             playerMaster = GetComponent<Player_Master>();
         }
 
-        IEnumerator TestHealthDeduction() {
-            yield return new WaitForSeconds(1f);
-            playerMaster.CallEventPlayerHealthReduce(50);
-        }
-
         void DeductHealth(int healthChange) {
             playerHealth -= healthChange;
 
             if (playerHealth <= 0) {
                 playerHealth = 0;
+                playerMaster.SendDeath();
+                playerMaster.CallEventDeath();
             }
 
             SetUI();
-            Debug.Log("Setting health to " + playerHealth);
         }
 
         void IncreaseHealth(int healthChange) {
@@ -57,10 +51,14 @@ namespace TBD {
             SetUI();
         }
 
+        void ResetPlayerHealth() {
+            playerHealth = 100;
+            SetUI();
+        }
+
         void SetUI() {
             if (healthText != null) {
                 healthText.text = playerHealth.ToString();
-                Debug.Log("Setting health to " + playerHealth);
             }
         }
     }

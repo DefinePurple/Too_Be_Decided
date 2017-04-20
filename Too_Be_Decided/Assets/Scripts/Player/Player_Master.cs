@@ -11,6 +11,8 @@ namespace TBD {
         public delegate void GeneralEventHandler();
         public event GeneralEventHandler EventHandsEmpty;
         public event GeneralEventHandler EventAmmoChanged;
+        public event GeneralEventHandler EventDeath;
+        public event GeneralEventHandler EventDeathAnimation;
 
         public delegate void AmmoPickupEventHandler(int quantity);
         public event AmmoPickupEventHandler EventPickedUpAmmo;
@@ -27,6 +29,16 @@ namespace TBD {
         public void CallEventAmmoChanged() {
             if (EventAmmoChanged != null) {
                 EventAmmoChanged();
+            }
+        }
+        public void CallEventDeath() {
+            if(EventDeath != null) {
+                EventDeath();
+            }
+        }
+        public void CallEventDeathAnimation() {
+            if (EventDeathAnimation != null) {
+                EventDeathAnimation();
             }
         }
         public void CallEventPickedUpAmmo(int quantity) {
@@ -102,12 +114,17 @@ namespace TBD {
 
         //Function for Sending the damage on player hit
         public void SendHit(int dmg, int peerID) {
-            Debug.Log("Sending hit");
             using (RTData data = RTData.Get()) {  // we put a using statement here so that we can dispose of the RTData objects once the packet is sent
-                Debug.Log("Inside rtdata");
                 data.SetInt(1, dmg); // add the position at key 1
                 data.SetInt(2, peerID);
                 GameSparksManager.Instance().GetRTSession().SendData(3, GameSparks.RT.GameSparksRT.DeliveryIntent.UNRELIABLE_SEQUENCED, data);// send the data
+            }
+        }
+
+        public void SendDeath() {
+            Debug.Log("SendingDeath");
+            using (RTData data = RTData.Get()) {
+                GameSparksManager.Instance().GetRTSession().SendData(4, GameSparks.RT.GameSparksRT.DeliveryIntent.UNRELIABLE_SEQUENCED, data);// send the data
             }
         }
 

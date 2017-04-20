@@ -93,8 +93,7 @@ namespace TBD {
 
         public void ReceiveHit(RTPacket _packet) {
             for (int i = 0; i < playerList.Length; i++) {
-                if (playerList[i].GetPeerID() == _packet.Data.GetInt(2).Value) { // check the name of the player matches the sender
-                    Debug.Log("Receiving hit");
+                if (playerList[i].GetPeerID() == _packet.Data.GetInt(2).Value) {
                     int damage = _packet.Data.GetInt(1).Value;
                     playerList[i].CallEventPlayerHealthReduce(damage);
                     break; // break, because we don’t need to update anyone else.
@@ -102,8 +101,13 @@ namespace TBD {
             }
         }
 
-        public void RegisterOpponentCollision(RTPacket _packet) {
-
+        public void DeathAnimation(RTPacket _packet) {
+            for (int i = 0; i < playerList.Length; i++) {
+                if (playerList[i].name == _packet.Sender.ToString()) { // check the name of the player matches the sender
+                    playerList[i].CallEventDeathAnimation();
+                    break; // break, because we dont need to continue
+                }
+            }
         }
 
         public void OnOpponentDisconnected(int _peerId) {

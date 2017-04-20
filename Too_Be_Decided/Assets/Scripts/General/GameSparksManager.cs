@@ -145,18 +145,17 @@ namespace TBD {
                     break;
 
                 case 3:
-                    Debug.Log("Package Received");
                     GameController.Instance().ReceiveHit(_packet);
                     break;
 
-                //case 4:
-                //    GameController.Instance().UpdateOpponentShells(_packet);
-                //    break;
-
                 case 4:
-                    GameController.Instance().RegisterOpponentCollision(_packet);
+                    Debug.Log("Package Received");
+                    GameController.Instance().DeathAnimation(_packet);
                     break;
 
+                case 5:
+                    //GameController.Instance().RegisterOpponentCollision(_packet);
+                    break;
             }
         }
     }

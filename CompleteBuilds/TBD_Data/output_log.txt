@@ -7,31 +7,371 @@ Direct3D:
     VRAM:     2017 MB
     Driver:   21.21.13.7653
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
-Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\BouncyCastle_GameSparks.dll (this message is harmless)
-Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\BouncyCastle_GameSparks.dll into Unity Child Domain
-Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\GameSparks.Api.dll (this message is harmless)
-Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\GameSparks.Api.dll into Unity Child Domain
-Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\GameSparks.dll (this message is harmless)
-Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\GameSparks.dll into Unity Child Domain
-Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\GameSparksRT.dll (this message is harmless)
-Loading C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\GameSparksRT.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\CompleteBuilds\TBD_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\CompleteBuilds\TBD_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\CompleteBuilds\TBD_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\CompleteBuilds\TBD_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\CompleteBuilds\TBD_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\CompleteBuilds\TBD_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\CompleteBuilds\TBD_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\CompleteBuilds\TBD_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\CompleteBuilds\TBD_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\CompleteBuilds\TBD_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\CompleteBuilds\TBD_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\CompleteBuilds\TBD_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\CompleteBuilds\TBD_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\CompleteBuilds\TBD_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\CompleteBuilds\TBD_Data\Managed\BouncyCastle_GameSparks.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\CompleteBuilds\TBD_Data\Managed\BouncyCastle_GameSparks.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\CompleteBuilds\TBD_Data\Managed\GameSparks.Api.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\CompleteBuilds\TBD_Data\Managed\GameSparks.Api.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\CompleteBuilds\TBD_Data\Managed\GameSparks.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\CompleteBuilds\TBD_Data\Managed\GameSparks.dll into Unity Child Domain
+Platform assembly: C:\Users\d\Documents\Unity\Working\CompleteBuilds\TBD_Data\Managed\GameSparksRT.dll (this message is harmless)
+Loading C:\Users\d\Documents\Unity\Working\CompleteBuilds\TBD_Data\Managed\GameSparksRT.dll into Unity Child Domain
 - Completed reload, in  0.026 seconds
-Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\d\Documents\Unity\Working\Complete Builds\TBD_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\d\Documents\Unity\Working\CompleteBuilds\TBD_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\d\Documents\Unity\Working\CompleteBuilds\TBD_Data\Managed\System.dll (this message is harmless)
 desktop: 1440x900 60Hz; virtual: 3360x1080 at -1440,0
 <RI> Initializing input.
 <RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.917079 ms
+GS: Connecting to:wss://preview-o308282J6vRk.ws.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+IPv6 on!
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1468 -> priority: 1 
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class": ".AuthenticatedConnectResponse","connectUrl": "wss://gsp-aeu000-se03.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=","requestId": "0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: Connecting to:wss://gsp-aeu000-se03.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+IPv6 on!
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"2d5bf36d-a239-4405-8da8-670e8e5e1247","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"SpO4+vEQ7RJ3czGj6n8rCBWFFOca+zjPEdJU7S0JzQM=","os":"WINDOWS","platform":"WindowsPlayer","deviceId":"cd0a8a5452a1b81843e5bee1f94c444768bee1eb","authToken":"1f9cac8b-04b1-4090-9be0-9cd6ff1f4c2a"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"2c0ebede-b0df-46ba-b5ed-94ec0d494121","requestId":"0","sessionId":"2d5bf36d-a239-4405-8da8-670e8e5e1247","userId":"58f7ca87d23ed204bf724cae"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: Available
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: SEND:{"@class":".AuthenticationRequest","userName":"c","password":"c","requestId":"636283278831839379_0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".AuthenticationResponse","authToken":"b4c6cd70-8e4f-4caa-9901-a99952864f7f","displayName":"c","newPlayer":false,"requestId":"636283278831839379_0","userId":"58f7ca859a8e0504bc887620"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Authentication Successful...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| Attempting Matchmaking...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: SEND:{"@class":".MatchmakingRequest","matchShortCode":"MATCH","skill":0,"requestId":"636283278837834921_1"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".MatchmakingResponse","requestId":"636283278837834921_1"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".MatchFoundMessage","accessToken":"+UMWtI/NfhTTmZguiSMnPCMKtCWSNy3HKB4CPAorW2DoixgpWxyR/dh2P9I/KErDelAakGI45fu3qRDte4qhWZk1qXRl23j9QAQdhSXNnu4YbuPOlVtJCHadwxRi5ZdjzMfvEnu4nk91LP/z3GBCgGwvogF+neesC87a6w++FqF8JesC1yfvhCKF+qyHnXXaUN+3j79VA3xEmkbv9bVQ/Song94wG9wZkHatxQXbH2CdUyHmUE6ItJi8xGfbR3uryxPhEI8+2vptvBoNh7MW7l/qsvLd71Q3biMjZzkK6xJ3SmHQZ4Jb2TArq6/AS/KbyqAFpNiIw2TXytfacVbwKWktmeLDU5a3633vFjcATcQ=","gameId":308282,"host":"gsp-aeu-rt04.gamesparks.net","matchData":{},"matchId":"58f936bc9a8e0504bcab5b75","matchShortCode":"MATCH","messageId":"58f936bc9a8e0504bcab5b84","notification":true,"participants":[{"displayName":"d","externalIds":{ },"id":"58f7ca87d23ed204bf724cae","online":true,"peerId":1},{"displayName":"c","externalIds":{ },"id":"58f7ca859a8e0504bc887620","online":true,"peerId":2}],"playerId":"58f7ca859a8e0504bc887620","port":5850,"summary":"MatchFoundMessage"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| Creating New RT Session Instance...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Starting Session
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| RT Session Connected...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.427898 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 590.
+Total: 0.886705 ms (FindLiveObjects: 0.039720 ms CreateObjectMapping: 0.019860 ms MarkObjects: 0.817193 ms  DeleteObjects: 0.005549 ms)
+
+GC| Found 2 Players...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| Player 1 Connected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Shooting
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Open Fire Called
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Shot Enemy
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Test
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Applying Damage outside
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Applying Damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Shooting
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Open Fire Called
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Shot Enemy
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Test
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Applying Damage outside
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Applying Damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Shooting
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Open Fire Called
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Shot Enemy
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Test
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Applying Damage outside
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Applying Damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Shooting
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Open Fire Called
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Shot Enemy
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Test
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Applying Damage outside
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Applying Damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Shooting
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Open Fire Called
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Shot Enemy
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Test
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Applying Damage outside
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Applying Damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Shooting
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Open Fire Called
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Shot Enemy
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Test
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Applying Damage outside
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Applying Damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Shooting
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Open Fire Called
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Shot Enemy
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Test
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Applying Damage outside
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Applying Damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Shooting
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Open Fire Called
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Shot Enemy
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Test
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Applying Damage outside
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Applying Damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Shooting
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Open Fire Called
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Shot Enemy
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Test
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Applying Damage outside
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Applying Damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Shooting
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Open Fire Called
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Shot Enemy
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Test
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Applying Damage outside
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Applying Damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Package Received
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
