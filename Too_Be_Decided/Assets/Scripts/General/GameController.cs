@@ -31,20 +31,23 @@ namespace TBD {
 
             Debug.Log("GC| Found " + playerList.Length + " Players...");
             for (int i = 0; i < playerCount; i++) {
+                Debug.Log("Player Counter " + i);
                 for (int j = 0; j < allSpawners.Length; j++) {
+                    Debug.Log("Spawn Counter" + j);
                     if (allSpawners[j].playerPeerId == GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].peerID) {
+                        allSpawners[j].StartCountdown();
                         int tempPeerID = GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].peerID;
                         // if the current iteration is the player, set it up as the player.
                         if (GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].peerID == GameSparksManager.Instance().GetRTSession().PeerId) {
                             //Creates the player
                             GameObject newPlayer = Instantiate(playerPrefab, allSpawners[j].gameObject.transform.position, allSpawners[j].gameObject.transform.rotation) as GameObject;
-                            
+
                             //Calls function to setup the player
                             newPlayer.GetComponent<Player_Master>().Setup(allSpawners[j].gameObject.transform, true, tempPeerID);
-                            
+
                             //Ensures Cameras are active
                             newPlayer.transform.GetChild(0).gameObject.SetActive(true);
-                            
+
                             //Set the players name
                             newPlayer.name = GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].peerID.ToString();
 
@@ -79,6 +82,8 @@ namespace TBD {
             #endregion
         }
 
+
+        //Updates the position of the enemy
         public void UpdateOpponents(RTPacket _packet) {
             for (int i = 0; i < playerList.Length; i++) {
                 if (playerList[i].name == _packet.Sender.ToString()) { // check the name of the player matches the sender
@@ -91,6 +96,7 @@ namespace TBD {
             }
         }
 
+        //If hit in another client, this will receiver the hit and apply damage
         public void ReceiveHit(RTPacket _packet) {
             for (int i = 0; i < playerList.Length; i++) {
                 if (playerList[i].GetPeerID() == _packet.Data.GetInt(2).Value) {
@@ -101,6 +107,7 @@ namespace TBD {
             }
         }
 
+        //If you die, every other clients gets told you died and will do the death animation
         public void DeathAnimation(RTPacket _packet) {
             for (int i = 0; i < playerList.Length; i++) {
                 if (playerList[i].name == _packet.Sender.ToString()) { // check the name of the player matches the sender

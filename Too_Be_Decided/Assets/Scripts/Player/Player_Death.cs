@@ -35,6 +35,7 @@ namespace TBD {
                     spawn = allSpawners[i];
                 }
             }
+            spawn.GetComponent<SpawnPoint>().StartCountdown();
             this.transform.position = spawn.transform.position;
             this.transform.rotation = spawn.transform.rotation;
         }

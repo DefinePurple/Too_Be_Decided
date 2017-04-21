@@ -7,7 +7,7 @@ namespace TBD{
 
         public int playerPeerId = int.MaxValue;
 
-        void Start() {
+        public void StartCountdown() {
             StartCoroutine(EnableSpawn());
         }
 
