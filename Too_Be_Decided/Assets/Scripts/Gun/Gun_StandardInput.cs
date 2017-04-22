@@ -34,7 +34,7 @@ namespace TBD {
 
         void CheckFire() {
             if(Time.time > nextAttack && playerMaster.IsPlayer()) {
-                if (Input.GetButton(attackButtonName) && !gameManagerMaster.isMenuOn) {
+                if (Input.GetAxis(attackButtonName) > 0 && !gameManagerMaster.isMenuOn) {
                     AttemptFire();
                 }
             }   

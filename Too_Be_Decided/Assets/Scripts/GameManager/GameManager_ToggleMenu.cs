@@ -25,7 +25,7 @@ namespace TBD {
         }
 
         void CheckForMenuToggle() {
-            if (Input.GetKeyUp(KeyCode.Escape)) {
+            if (Input.GetButtonDown("Menu")) {
                 ToggleMenu();
             }
         }

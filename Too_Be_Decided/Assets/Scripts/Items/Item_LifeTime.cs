@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace TBD {
-    public class DeathCube : MonoBehaviour {
+    public class Item_LifeTime : MonoBehaviour {
+
+        public float lifeTime = 10;
 
         // Use this for initialization
         void Start() {
@@ -11,7 +13,7 @@ namespace TBD {
         }
 
         private IEnumerator Die() {
-            yield return new WaitForSeconds(10);
+            yield return new WaitForSeconds(lifeTime);
             Destroy(this);
         }
     }
