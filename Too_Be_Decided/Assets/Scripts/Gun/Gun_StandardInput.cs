@@ -43,7 +43,6 @@ namespace TBD {
         void AttemptFire() {
             nextAttack = Time.time + attackRate;
             if (gunMaster.isGunLoaded) {
-                Debug.Log("Shooting");
                 gunMaster.CallEventPlayerInput();
             } else {
                 gunMaster.CallEventGunNotUsable();

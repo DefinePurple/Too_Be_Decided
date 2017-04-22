@@ -24,7 +24,7 @@ namespace TBD{
 
         void PickedUpAmmo(int quantity) {
             ammoCurrentCarried += quantity;
-                    
+
             if(ammoCurrentCarried > maxQuantity)
                 ammoCurrentCarried = maxQuantity;
 
@@ -32,4 +32,3 @@ namespace TBD{
         }
 	}
 }
-
