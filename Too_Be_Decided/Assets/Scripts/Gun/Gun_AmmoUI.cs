@@ -23,6 +23,7 @@ namespace TBD {
             gunMaster = GetComponent<Gun_Master>();
         }
 
+        //Updates the ammo text on the UI
         void UpdateAmmoUI(int currentAmmo, int carriedAmmo) {
             if (currentAmmoText != null)
                 currentAmmoText.text = currentAmmo.ToString();
@@ -30,8 +31,6 @@ namespace TBD {
             if (carriedText != null)
                 carriedText.text = carriedAmmo.ToString();
         }
-
-
     }
 }
 

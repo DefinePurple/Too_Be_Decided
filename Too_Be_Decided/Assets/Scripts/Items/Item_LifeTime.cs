@@ -5,6 +5,8 @@ using UnityEngine;
 namespace TBD {
     public class Item_LifeTime : MonoBehaviour {
 
+        //destroys the ammo object after 10 seconds
+
         public float lifeTime = 10;
 
         // Use this for initialization

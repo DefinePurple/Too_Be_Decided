@@ -7,7 +7,7 @@ namespace TBD{
 
         public GameObject hurtCanvas;
         private Player_Master playerMaster;
-        private float secondsTillHide = 2;
+        private float secondsTillHide = 1;
         
         void OnEnable() {
             SetInitial();
@@ -23,10 +23,11 @@ namespace TBD{
         }
 
         void TurnOnHurtEffect(int dummy) {
+            //if the canvas exists
             if(hurtCanvas != null) {
-                StopAllCoroutines();
-                hurtCanvas.SetActive(true);
-                StartCoroutine(ResetCanvas());
+                StopAllCoroutines();//stop everything
+                hurtCanvas.SetActive(true);//set the canvas to true
+                StartCoroutine(ResetCanvas());//reset the canvas
             }
         }
 

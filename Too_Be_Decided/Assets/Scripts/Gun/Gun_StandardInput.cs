@@ -10,7 +10,6 @@ namespace TBD {
         private GameManager_Master gameManagerMaster;
         private float nextAttack;
         public float attackRate = 0.3f;
-        //private Transform myTransform;
         public string attackButtonName;
         public string reloadButtonName;
 
@@ -27,13 +26,15 @@ namespace TBD {
             gunMaster = GetComponent<Gun_Master>();
             playerMaster = GetComponentInParent<Player_Master>();
             gameManagerMaster = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager_Master>();
-           // myTransform = transform;
             gunMaster.isGunLoaded = true;
         }
 
 
         void CheckFire() {
+            //Check if the time has passed to allow firing
+            //and checks if the one firing is the player
             if(Time.time > nextAttack && playerMaster.IsPlayer()) {
+                //checks if button is pressed and the menu is not on
                 if (Input.GetAxis(attackButtonName) > 0 && !gameManagerMaster.isMenuOn) {
                     AttemptFire();
                 }
@@ -41,20 +42,21 @@ namespace TBD {
         }
 
         void AttemptFire() {
+            //sets the time to next attack
             nextAttack = Time.time + attackRate;
+            //if the gun is loaded fire
             if (gunMaster.isGunLoaded) {
                 gunMaster.CallEventPlayerInput();
-            } else {
+            } else {//otherwise the gun is not usable
                 gunMaster.CallEventGunNotUsable();
             }
         }
 
         void CheckReload() {
+            //check if player wants to reload
             if (Input.GetButtonDown(reloadButtonName))
                 gunMaster.CallEventReload();
         }
-
-
     }
 }
 

@@ -60,7 +60,12 @@ namespace TBD {
             UIAmmoUpdateRequest();
         }
 
+        //tries to reload
         void TryToReload() {
+            //Conditions:
+            //Ammo on person must not be zero
+            //Clip cant be full
+            //gun cant already be reloading
             if(ammoBox.ammoCurrentCarried != 0 && currentAmmo != clipSize && !gunMaster.isReloading) {
                 gunMaster.isReloading = true;
                 gunMaster.isGunLoaded = false;
@@ -68,6 +73,7 @@ namespace TBD {
             }
         }
 
+        //checks if the gun is loaded
         void CheckAmmoStatus() {
             if (currentAmmo <= 0) {
                 currentAmmo = 0;
@@ -76,6 +82,7 @@ namespace TBD {
                 gunMaster.isGunLoaded = true;
         }
 
+        //Checks if the current amount in the clip is not more than it can handle
         void StartingSanityCheck() {
             if(currentAmmo > clipSize) {
                 currentAmmo = clipSize;
@@ -86,6 +93,7 @@ namespace TBD {
             gunMaster.CallEventAmmoChanged(currentAmmo, ammoBox.ammoCurrentCarried);
         }
 
+        //Reset gun, IE: no longer loading and is loaded.
         void ResetGunReloading() {
             gunMaster.isReloading = false;
             CheckAmmoStatus();
@@ -93,19 +101,24 @@ namespace TBD {
         }
 
         void OnReloadComplete() {
+            //Gets difference in ammo
             int ammo = clipSize - currentAmmo;
 
+            //if there is enough ammo
             if(ammoBox.ammoCurrentCarried >= ammo) {
-                currentAmmo += ammo;
-                ammoBox.ammoCurrentCarried -= ammo;
-            } else if(ammoBox.ammoCurrentCarried < ammo && ammoBox.ammoCurrentCarried != 0) {
+                currentAmmo += ammo;//adds ammo to current clip
+                ammoBox.ammoCurrentCarried -= ammo;//removes ammo from max carried
+            }
+            //if there is not enough ammo, just add whats left to the clip
+            else if(ammoBox.ammoCurrentCarried < ammo && ammoBox.ammoCurrentCarried != 0) {
                 currentAmmo += ammoBox.ammoCurrentCarried;
                 ammoBox.ammoCurrentCarried = 0;
             }
 
-            ResetGunReloading();
+            ResetGunReloading();//resets gun
         }
 
+        //Calls on complete when reloading is finished
         IEnumerator ReloadWithoutAnimation() {
             yield return new WaitForSeconds(reloadTime);
             OnReloadComplete();

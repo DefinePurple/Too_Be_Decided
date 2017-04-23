@@ -4,6 +4,10 @@ using UnityEngine;
 
 namespace TBD{
 	public class SpawnPoint : MonoBehaviour {
+        
+        //Script for player spawn points
+        //Spawn point will hold the player's id for 3 seconds  and then reset itself
+        //this is to stop players spawning on top of each other
 
         public int playerPeerId = int.MaxValue;
 

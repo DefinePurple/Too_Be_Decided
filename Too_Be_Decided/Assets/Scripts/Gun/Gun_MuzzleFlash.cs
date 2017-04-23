@@ -21,6 +21,7 @@ namespace TBD {
             gunMaster = GetComponent<Gun_Master>();
         }
 
+        //called when the player shoots. Plays the particle effect
         void PlayMuzzleFlash() {
             if (particles != null)
                 particles.Play();

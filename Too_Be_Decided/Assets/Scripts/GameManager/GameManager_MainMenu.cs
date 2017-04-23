@@ -22,7 +22,7 @@ namespace TBD {
         }
 
         void GoToMenuScene() {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(0);//load menu scene
         }
     }
 }

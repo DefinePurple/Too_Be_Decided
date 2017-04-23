@@ -10,10 +10,6 @@ namespace TBD {
         private GameManager_Master gameManagerMaster;
         private FirstPersonController fpsScript;
 
-        void OnEnable() {
-            
-        }
-
         void OnDisable() {
             gameManagerMaster.MenuToggleEvent -= TogglePlayer;
         }
@@ -24,12 +20,12 @@ namespace TBD {
         }
         void SetInitial() {
             gameManagerMaster = GetComponent<GameManager_Master>();
-            fpsScript = GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonController>();
+            fpsScript = GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonController>();//gets a reference to the player movement script
         }
 
         void TogglePlayer() {
             if (fpsScript != null)
-                fpsScript.enabled = !fpsScript.enabled;
+                fpsScript.enabled = !fpsScript.enabled;//disable the player movement script if it exists
         }
     }
 }

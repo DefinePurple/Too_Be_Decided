@@ -30,7 +30,7 @@ namespace TBD {
         }
 
         void SetInitial() {
-            if(GameManager_References._player != null) {
+            if (GameManager_References._player != null) {
                 playerMaster = GameManager_References._player.GetComponent<Player_Master>();
             }
         }

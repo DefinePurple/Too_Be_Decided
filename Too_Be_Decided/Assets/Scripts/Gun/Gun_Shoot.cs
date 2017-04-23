@@ -15,12 +15,10 @@ namespace TBD {
         void OnEnable() {
             SetInitial();
             gunMaster.EventPlayerInput += OpenFire;
-            gunMaster.EventShotEnemy += Test;
         }
 
         void OnDisable() {
             gunMaster.EventPlayerInput -= OpenFire;
-            gunMaster.EventShotEnemy -= Test;
         }
 
         void SetInitial() {
@@ -30,18 +28,14 @@ namespace TBD {
         }
 
         void OpenFire() {
-            Debug.Log("Open Fire Called");
+            //if the raycast hits something
             if(Physics.Raycast(camTransform.position, camTransform.forward, out hit, range)) {
-                gunMaster.CallEventShotDefault(hit.transform);
+                gunMaster.CallEventShotDefault(hit.transform);//call the default event
+                //if what is hit is the enemy
                 if(hit.transform.CompareTag(GameManager_References._enemyTag)) {
-                    Debug.Log("Shot Enemy");
-                    gunMaster.CallEventShotEnemy(hit.transform);
+                    gunMaster.CallEventShotEnemy(hit.transform);//call the enemy event
                 }
             }
-        }
-
-        void Test(Transform hitTransform) {
-            Debug.Log("Test");
         }
     }
 }

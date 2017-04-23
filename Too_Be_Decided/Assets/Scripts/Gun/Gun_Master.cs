@@ -6,17 +6,17 @@ namespace TBD {
     public class Gun_Master : MonoBehaviour {
 
         public delegate void GeneralEventHandler();
-        public event GeneralEventHandler EventPlayerInput;
-        public event GeneralEventHandler EventGunNotUsable;
-        public event GeneralEventHandler EventReload;
+        public event GeneralEventHandler EventPlayerInput;//Event for when player shoots
+        public event GeneralEventHandler EventGunNotUsable;//Event for when the gun is no longer usable eg: out of ammo
+        public event GeneralEventHandler EventReload;//event to reload
 
 
         public delegate void GunHitEventHandler(Transform hitTransform);
-        public event GunHitEventHandler EventShotDefault;
-        public event GunHitEventHandler EventShotEnemy;
+        public event GunHitEventHandler EventShotDefault;//Event when a shot is fired, always happens
+        public event GunHitEventHandler EventShotEnemy;//Event when shot is fired and hits an enemy
 
         public delegate void GunAmmoEventHandler(int currentAmmo, int carriedAmmo);
-        public event GunAmmoEventHandler EventAmmoChanged;
+        public event GunAmmoEventHandler EventAmmoChanged;//Event for when the ammo changes ie: numbers decrease / increase
 
         public bool isGunLoaded;
         public bool isReloading;

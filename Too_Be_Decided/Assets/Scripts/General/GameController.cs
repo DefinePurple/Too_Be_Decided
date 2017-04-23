@@ -24,18 +24,19 @@ namespace TBD {
         public Text[] playerScoreHUDList, playerNamesHUDList; // these are the text-fields for each player's kills and name in the HUD panel. This is set from the editor
 
         void Start() {
-            SpawnPoint[] allSpawners = FindObjectsOfType(typeof(SpawnPoint)) as SpawnPoint[];
-            int playerCount = GameSparksManager.Instance().GetSessionInfo().GetPlayerList().Count;
-            #region Setup Player Tanks
-            playerList = new Player_Master[playerCount];
+            SpawnPoint[] allSpawners = FindObjectsOfType(typeof(SpawnPoint)) as SpawnPoint[];//gets all the spawner scripts
+            int playerCount = GameSparksManager.Instance().GetSessionInfo().GetPlayerList().Count;//gets the number of players
+            #region Setup Players
+            playerList = new Player_Master[playerCount];//create a list to store the player scripts
 
             Debug.Log("GC| Found " + playerList.Length + " Players...");
             for (int i = 0; i < playerCount; i++) {
                 Debug.Log("Player Counter " + i);
                 for (int j = 0; j < allSpawners.Length; j++) {
                     Debug.Log("Spawn Counter" + j);
+                    //if the spawner id and player id are the same, place the player here
                     if (allSpawners[j].playerPeerId == GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].peerID) {
-                        allSpawners[j].StartCountdown();
+                        allSpawners[j].StartCountdown();//countdown to reset the spawner
                         int tempPeerID = GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].peerID;
                         // if the current iteration is the player, set it up as the player.
                         if (GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].peerID == GameSparksManager.Instance().GetRTSession().PeerId) {
@@ -72,9 +73,6 @@ namespace TBD {
                             // add the new tank object to the corresponding reference in the list
                             playerList[i] = enemyPlayer.GetComponent<Player_Master>();
                         }
-
-                        // set the HUD of this player to be the display name
-                        //playerNamesHUDList[i].text = GameSparksManager.Instance().GetSessionInfo().GetPlayerList()[i].displayName;
                         break;
                     }
                 }
@@ -118,7 +116,12 @@ namespace TBD {
         }
 
         public void OnOpponentDisconnected(int _peerId) {
-
+            for (int i = 0; i < playerList.Length; i++) {
+                if (playerList[i].name == _peerId.ToString()) { // check the name of the player matches the sender
+                    playerList[i].DisablePlayer();
+                    break; // break, because we dont need to continue
+                }
+            }
         }
     }
 }

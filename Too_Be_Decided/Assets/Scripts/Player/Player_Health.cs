@@ -29,6 +29,7 @@ namespace TBD {
             playerMaster = GetComponent<Player_Master>();
         }
 
+        //reduces the players health
         void DeductHealth(int healthChange) {
             playerHealth -= healthChange;
 
@@ -41,6 +42,7 @@ namespace TBD {
             SetUI();
         }
 
+        //increases the players health
         void IncreaseHealth(int healthChange) {
             playerHealth += healthChange;
 

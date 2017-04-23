@@ -12,6 +12,7 @@ using GameSparks.Api.Requests;
 
 namespace TBD {
     public class GameSparksManager : MonoBehaviour {
+        //Creates a singleton for itself
         private static GameSparksManager instance = null;
         public static GameSparksManager Instance() {
             if (instance != null)
@@ -22,7 +23,7 @@ namespace TBD {
 
         void Awake() {
             instance = this;
-            DontDestroyOnLoad(this.gameObject);
+            DontDestroyOnLoad(this.gameObject);//makes sure object isnt destroyed between scenes
         }
 
         private GameSparksRTUnity gameSparksRTUnity;
@@ -35,10 +36,12 @@ namespace TBD {
             return sessionInfo;
         }
 
+
         #region Login & Registration
-        public delegate void AuthCallback(AuthenticationResponse _authresp2);
+        public delegate void AuthCallback(AuthenticationResponse _authresp2);//holds reference to a method
 
         public void RegisterUser(string _userName, string _password) {
+            //sends a registration request with the details included
             new RegistrationRequest()
                 .SetDisplayName(_userName)
                 .SetUserName(_userName)
@@ -51,6 +54,7 @@ namespace TBD {
         }
 
         public void AuthenticateUser(string _userName, string _password, AuthCallback _authcallback) {
+            //sends an authentication request with the details included.
             new AuthenticationRequest()
                 .SetUserName(_userName)
                 .SetPassword(_password)
@@ -66,8 +70,14 @@ namespace TBD {
         #region Matchmaking Request
         public void FindPlayers() {
             Debug.Log("GSM| Attempting Matchmaking...");
+            //Looks for a match
+            //CODES FOR MATCHES ARE AS FOLLOWS 
+            //"TWO" is a min of 2 people and max of 2 people
+            //"THREE" is a min of 3 people and max of 3 people
+            //change .SetMatchShortCode() to either of these
+            //contact me if you want more
             new MatchmakingRequest()
-                .SetMatchShortCode("MATCH")
+                .SetMatchShortCode("TWO")
                 .SetSkill(0)
                 .Send((response) => {
                     if (response.HasErrors) {
@@ -77,17 +87,21 @@ namespace TBD {
         }
         #endregion
 
+
+        //Starts the game session
         public void StartNewRTSession(RTSessionInfo _info) {
+            //if the settings arent null
             if (gameSparksRTUnity == null) {
                 Debug.Log("GSM| Creating New RT Session Instance...");
-                sessionInfo = _info;
-                gameSparksRTUnity = this.gameObject.AddComponent<GameSparksRTUnity>();
-                GSRequestData mockedResponse = new GSRequestData();
-                mockedResponse.AddNumber("port", (double)_info.GetPortID());
-                mockedResponse.AddString("host", _info.GetHostURL());
+                sessionInfo = _info;//player/session information
+                gameSparksRTUnity = this.gameObject.AddComponent<GameSparksRTUnity>();//add the RT script to the manager
+                GSRequestData mockedResponse = new GSRequestData();//create a new request
+                mockedResponse.AddNumber("port", (double)_info.GetPortID());//gets the port id
+                mockedResponse.AddString("host", _info.GetHostURL());//gets host server
                 mockedResponse.AddString("accessToken", _info.GetAccessToken()); // construct a dataset from the game-details
-                FindMatchResponse response = new FindMatchResponse(mockedResponse);
+                FindMatchResponse response = new FindMatchResponse(mockedResponse);//create a mock response for match
 
+                //configures the game
                 gameSparksRTUnity.Configure(response,
                     (peerId) => { OnPlayerConnectedToGame(peerId); },
                     (peerId) => { OnPlayerDisconnected(peerId); },
@@ -109,6 +123,7 @@ namespace TBD {
             //GameController.Instance().OnOpponentDisconnected(_peerId);
         }
 
+        //loads the game and starts sending packets
         private void OnRTReady(bool _isReady) {
             if (_isReady) {
                 Debug.Log("GSM| RT Session Connected...");
@@ -130,16 +145,10 @@ namespace TBD {
         }
 
 
+        //Decides what to do on a packet received
         private void OnPacketReceived(RTPacket _packet) {
 
             switch (_packet.OpCode) {
-                //case 1:
-                //    if (chatManager == null) { // if the chat manager is not yet set up, then assign the reference in the scene
-                //        chatManager = GameObject.Find("Chat Manager").GetComponent<ChatManager>();
-                //    }
-                //    chatManager.OnMessageReceived(_packet); // send the whole packet to the chat-manager
-                //    break;
-
                 case 2:
                     GameController.Instance().UpdateOpponents(_packet);
                     break;
@@ -149,12 +158,7 @@ namespace TBD {
                     break;
 
                 case 4:
-                    Debug.Log("Package Received");
                     GameController.Instance().DeathAnimation(_packet);
-                    break;
-
-                case 5:
-                    //GameController.Instance().RegisterOpponentCollision(_packet);
                     break;
             }
         }

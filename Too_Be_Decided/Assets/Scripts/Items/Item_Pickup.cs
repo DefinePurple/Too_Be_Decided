@@ -22,10 +22,9 @@ namespace TBD {
         }
 
         void CarryOutPickupActions(Transform tParent) {
-            transform.SetParent(tParent);
-            itemMaster.CallEventObjectPickup();
-            transform.gameObject.SetActive(false);
+            transform.SetParent(tParent);//sets the parent of the object to the player
+            itemMaster.CallEventObjectPickup();//calls the event when the object is picked up
+            transform.gameObject.SetActive(false);//disable object
         }
     }
 }
-

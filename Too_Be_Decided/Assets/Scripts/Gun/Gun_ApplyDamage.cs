@@ -22,9 +22,9 @@ namespace TBD {
         }
 
         void ApplyDamage(Transform hitTransform) {
-            Debug.Log("Applying Damage outside");
+            //checks if player master is present
             if (hitTransform.GetComponent<Player_Master>() != null) {
-                Debug.Log("Applying Damage");
+                //Gets the player master script and sends the damage to other clients
                 Player_Master playerMaster = hitTransform.GetComponent<Player_Master>();
                 playerMaster.SendHit(damage, playerMaster.GetPeerID());
             }

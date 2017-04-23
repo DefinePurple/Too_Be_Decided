@@ -6,6 +6,7 @@ using UnityEngine.UI;
 using GameSparks.Api.Responses;
 using GameSparks.Api.Messages;
 using GameSparks.Api.Requests;
+using UnityEngine.SceneManagement;
 
 namespace TBD {
     public class LobbyManager : MonoBehaviour {
@@ -18,6 +19,7 @@ namespace TBD {
         private RTSessionInfo tempRTSessionInfo;
 
         void Start() {
+            #region Listeners
             loginButton.onClick.AddListener(() => {
                 GameSparksManager.Instance().AuthenticateUser(userNameInput.text, passwordInput.text, OnAuthentication);
             });
@@ -47,10 +49,21 @@ namespace TBD {
             });
 
             exitButton.onClick.AddListener(() => {
+                //Destroys objects that need to be killed before closing
+                GameObject[] gos = GameObject.FindGameObjectsWithTag("GameController");
+                foreach (GameObject go in gos) {
+                    Destroy(go);
+                }
                 Application.Quit();
             });
+
+            logoutButton.onClick.AddListener(() => {
+                SceneManager.LoadScene(0);
+            });
+            #endregion
         }
 
+        //Once a match is found, a message will be received. this will hold player details and such
         private void OnMatchFound(MatchFoundMessage _message) {
             matchDetails.text = "Match Found...";
             tempRTSessionInfo = new RTSessionInfo(_message); // we'll store the match data until we need to create an RT session instance

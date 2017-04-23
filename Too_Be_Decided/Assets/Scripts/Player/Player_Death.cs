@@ -27,15 +27,17 @@ namespace TBD {
         }
 
         void Respawn() {
-            GameObject[] allSpawners = GameObject.FindGameObjectsWithTag("Spawn");
+            GameObject[] allSpawners = GameObject.FindGameObjectsWithTag("Spawn");//get all spawners
             GameObject spawn = null;
             while (spawn == null) {
-                int i = (int) Random.Range(0, allSpawners.Length);
-                if (allSpawners[i].GetComponent<SpawnPoint>().playerPeerId == int.MaxValue) {
+                int i = (int) Random.Range(0, allSpawners.Length);//pick a random spawner
+                if (allSpawners[i].GetComponent<SpawnPoint>().playerPeerId == int.MaxValue) {//if the spawner can spawn a player, choose it
                     spawn = allSpawners[i];
                 }
             }
-            spawn.GetComponent<SpawnPoint>().StartCountdown();
+            spawn.GetComponent<SpawnPoint>().StartCountdown();//reset the spawner
+
+            //set the players position and rotation to that of the spawner
             this.transform.position = spawn.transform.position;
             this.transform.rotation = spawn.transform.rotation;
         }

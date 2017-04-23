@@ -17,20 +17,19 @@ namespace TBD {
             SetInitial();
         }
 
-        void OnDisable() {
-        }
-
         void SetInitial() {
             gameManagerMaster = GetComponent<GameManager_Master>();
         }
 
         void CheckForMenuToggle() {
+            //gets the menu button from the input manager
             if (Input.GetButtonDown("Menu")) {
                 ToggleMenu();
             }
         }
 
         void ToggleMenu() {
+            //if the menu exists, turn it on/off
             if (menu != null) {
                 menu.SetActive(!menu.activeSelf);
                 gameManagerMaster.isMenuOn = !gameManagerMaster.isMenuOn;

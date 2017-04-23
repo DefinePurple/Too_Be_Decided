@@ -22,6 +22,7 @@ namespace TBD {
             playerMaster = GetComponent<Player_Master>();
         }
 
+        //creates squares around a point (person who died) and adds an explosion force to them
         void DeathAnimation() {
             float radius = 2f;
             float power = 150.0f;

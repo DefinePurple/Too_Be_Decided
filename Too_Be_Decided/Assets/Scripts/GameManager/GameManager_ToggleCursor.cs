@@ -31,11 +31,11 @@ namespace TBD {
 
         void CheckIfCursorShouldBeLocked() {
             if (isCursorLocked) {
-                Cursor.lockState = CursorLockMode.Locked;
-                Cursor.visible = false;
+                Cursor.lockState = CursorLockMode.Locked;//locks the cursor to the center of the screen
+                Cursor.visible = false;//hides the cursor
             } else {
-                Cursor.lockState = CursorLockMode.None;
-                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;//removes lock on cursor
+                Cursor.visible = true;//enables view of the cursor
             }
         }
     }

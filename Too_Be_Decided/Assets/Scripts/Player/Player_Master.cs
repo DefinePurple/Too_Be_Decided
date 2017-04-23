@@ -112,6 +112,16 @@ namespace TBD {
             #endregion
         }
 
+        public void DisablePlayer() {
+            int count = this.transform.childCount;
+            for(int i = 0; i < count; i++) {
+                GameObject go = this.transform.parent.GetChild(i).gameObject;
+                if (go.CompareTag("Body")) {
+                    go.SetActive(false);
+                }
+            }
+        }
+
         //Function for Sending the damage on player hit
         public void SendHit(int dmg, int peerID) {
             using (RTData data = RTData.Get()) {  // we put a using statement here so that we can dispose of the RTData objects once the packet is sent
@@ -121,8 +131,8 @@ namespace TBD {
             }
         }
 
+        //Sends a death notice to the player who died to tell them they died in on instance
         public void SendDeath() {
-            Debug.Log("SendingDeath");
             using (RTData data = RTData.Get()) {
                 GameSparksManager.Instance().GetRTSession().SendData(4, GameSparks.RT.GameSparksRT.DeliveryIntent.UNRELIABLE_SEQUENCED, data);// send the data
             }

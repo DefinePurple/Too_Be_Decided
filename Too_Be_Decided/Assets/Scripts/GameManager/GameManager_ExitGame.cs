@@ -22,6 +22,11 @@ namespace TBD {
         }
 
         void QuitGame() {
+            //gets all the game controller objects and destroys them, then quits the game
+            GameObject[] gos = GameObject.FindGameObjectsWithTag("GameController");
+            foreach (GameObject go in gos){
+                Destroy(go);
+            }
             Application.Quit();
         }
     }
