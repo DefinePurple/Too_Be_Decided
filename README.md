@@ -13,4 +13,4 @@ Daniel Fitzpatrick
 Actually managing to get something finished. The project was a huge task which brought about so many challenges (bugs) but I'm happy to say I created an online game.
 
 <br> <h3> Video </h3> <br>
-[![](https://i.gyazo.com/ed27912b5651f410ae8edfc3262e1d35.png)](https://www.youtube.com/watch?v=g3dliN8aHok)
+[![](https://i.gyazo.com/ed27912b5651f410ae8edfc3262e1d35.png)](https://www.youtube.com/watch?v=_fgnfiFEoSo&feature=youtu.be)
