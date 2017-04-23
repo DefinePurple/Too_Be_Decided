@@ -24,7 +24,7 @@ namespace TBD {
 
         void SetInitial() {
             itemMaster = GetComponent<Item_Master>();
-            playerGO = GameManager_References._player;
+            playerGO = GameObject.FindGameObjectWithTag("Player");
         }
 
         void TakeAmmo() {

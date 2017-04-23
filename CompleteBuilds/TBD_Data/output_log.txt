@@ -36,40 +36,40 @@ desktop: 1440x900 60Hz; virtual: 3360x1080 at -1440,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.984838 ms
+UnloadTime: 1.006742 ms
 IPv6 on!
-GS: Connecting to:wss://preview-o308282J6vRk.ws.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=11b7da2d8fdbb878719e4f1f503a388c67343a3c&SDK=
+GS: Connecting to:wss://preview-o308282J6vRk.ws.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 94c -> priority: 1 
-GS: OPENED
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-GS: RECV:{"@class": ".AuthenticatedConnectResponse","connectUrl": "wss://gsp-aeu000-se08.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=11b7da2d8fdbb878719e4f1f503a388c67343a3c&SDK=","requestId": "0"}
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-GS: Connecting to:wss://gsp-aeu000-se08.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=11b7da2d8fdbb878719e4f1f503a388c67343a3c&SDK=
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
+  Thread -> id: 2690 -> priority: 1 
 IPv6 on!
 GS: OPENED
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"00edeaec-171c-45fe-b253-2c58396f157e","requestId":"0"}
+GS: RECV:{"@class": ".AuthenticatedConnectResponse","connectUrl": "wss://gsp-aeu000-se07.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=","requestId": "0"}
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"jcoMC7hwBeb8MocAjHu46fpxDcJGK70nTnTVN2hSCVs=","os":"WINDOWS","platform":"WindowsPlayer","deviceId":"11b7da2d8fdbb878719e4f1f503a388c67343a3c","authToken":"ec489f74-35fc-4592-b275-c02f566edcaf"}
+GS: Connecting to:wss://gsp-aeu000-se07.gamesparks.net/ws/device/o308282J6vRk?deviceOS=WINDOWS&deviceID=cd0a8a5452a1b81843e5bee1f94c444768bee1eb&SDK=
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"3f0d451a-81bf-462e-a416-d52b39d5c965","requestId":"0","sessionId":"00edeaec-171c-45fe-b253-2c58396f157e","userId":"58f7d08f08987a04cede1e37"}
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"f8fbf3fc-a638-4cb9-883d-753c37e77ee6","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"O1dAEw26sVUNHwmIr/BmSWsh1m1TPctr06RrzGlK55w=","os":"WINDOWS","platform":"WindowsPlayer","deviceId":"cd0a8a5452a1b81843e5bee1f94c444768bee1eb","authToken":"65325668-e217-4c0b-aeeb-4bdcff264180"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"4e6146a0-aac3-459f-9148-a22e7e293222","requestId":"0","sessionId":"f8fbf3fc-a638-4cb9-883d-753c37e77ee6","userId":"58f7d08f08987a04cede1e37"}
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -77,11 +77,11 @@ GS: Available
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-GS: SEND:{"@class":".AuthenticationRequest","userName":"s","password":"s","requestId":"636284065191560268_0"}
+GS: SEND:{"@class":".AuthenticationRequest","userName":"d","password":"d","requestId":"636285611468029697_0"}
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-GS: RECV:{"@class":".AuthenticationResponse","authToken":"e4f2090b-7742-427e-a386-8a2c627e793d","displayName":"s","newPlayer":false,"requestId":"636284065191560268_0","userId":"58f7d08f08987a04cede1e37"}
+GS: RECV:{"@class":".AuthenticationResponse","authToken":"ec551433-03a2-4cb5-b894-b1116ea8ed51","displayName":"d","newPlayer":false,"requestId":"636285611468029697_0","userId":"58f7ca87d23ed204bf724cae"}
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -93,15 +93,15 @@ GSM| Attempting Matchmaking...
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-GS: SEND:{"@class":".MatchmakingRequest","matchShortCode":"MATCH","skill":0,"requestId":"636284065221797716_1"}
+GS: SEND:{"@class":".MatchmakingRequest","matchShortCode":"MATCH","skill":0,"requestId":"636285611473028510_1"}
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-GS: RECV:{"@class":".MatchmakingResponse","requestId":"636284065221797716_1"}
+GS: RECV:{"@class":".MatchmakingResponse","requestId":"636285611473028510_1"}
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-GS: RECV:{"@class":".MatchFoundMessage","accessToken":"C1l1VdO8eBBx/LB+V7InxLpz8VzLTMMUvFc3x1uKx1HYObFJ5urh0XH9jdkbjhkpelAakGI45fu3qRDte4qhWZk1qXRl23j9QAQdhSXNnu6sIG5SD08BG3Bc4sRoh/wKG/OPYF/7SyAWTeRo8IYnZqIkKjWTPDKEhTLfTJ6DNol8JesC1yfvhCKF+qyHnXXaUN+3j79VA3xEmkbv9bVQ/VwlfzLaPzVRkhF2FXs/+qmSY842t+2uapu3E3XIfKvVumEyWF8mIRmgsL7uPnsed1/qsvLd71Q3biMjZzkK6xI5a50h5pjJCZRANDvWZDuRyqAFpNiIw2TXytfacVbwKWktmeLDU5a3633vFjcATcQ=","gameId":308282,"host":"gsp-aeu-rt04.gamesparks.net","matchData":{},"matchId":"58fa69eb38c31604cccd75ad","matchShortCode":"MATCH","messageId":"58fa69eb38c31604cccd75ba","notification":true,"participants":[{"displayName":"d","externalIds":{ },"id":"58f7ca87d23ed204bf724cae","online":false,"peerId":1},{"displayName":"s","externalIds":{ },"id":"58f7d08f08987a04cede1e37","online":true,"peerId":2}],"playerId":"58f7d08f08987a04cede1e37","port":5700,"summary":"MatchFoundMessage"}
+GS: RECV:{"@class":".MatchFoundMessage","accessToken":"Ys5KEr2pcMNbiuAlf8BEh3xf+lAjwY/kmN3D8GdLDUtsv2sAO2VZHLg1TObMdkRiQ1BfutcEye+7OrgvcOu1e5k1qXRl23j9QAQdhSXNnu6g20hY8X58JVYuc/AEG+4Ccvx5lBPJPKpabXQzBllKBYuLxg749f3Izgou5TqMcoR8JesC1yfvhCKF+qyHnXXaUN+3j79VA3xEmkbv9bVQ/Song94wG9wZkHatxQXbH2DEjL498GjbQixmA/kiOObpwnTjBkBanIyun9y5+dTT61/qsvLd71Q3biMjZzkK6xI5a50h5pjJCZRANDvWZDuRyqAFpNiIw2TXytfacVbwKWktmeLDU5a3633vFjcATcQ=","gameId":308282,"host":"gsp-aeu-rt04.gamesparks.net","matchData":{},"matchId":"58fcc5ee23791d04bb4a4446","matchShortCode":"MATCH","messageId":"58fcc5ee23791d04bb4a444b","notification":true,"participants":[{"displayName":"d","externalIds":{ },"id":"58f7ca87d23ed204bf724cae","online":true,"peerId":1},{"displayName":"s","externalIds":{ },"id":"58f7d08f08987a04cede1e37","online":true,"peerId":2}],"playerId":"58f7ca87d23ed204bf724cae","port":5700,"summary":"MatchFoundMessage"}
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -117,561 +117,23 @@ GSM| RT Session Connected...
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+Session Already Started
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+Session Already Started
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
+Session Already Started
  
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at TBD.GameSparksManager.OnPacketReceived (RTPacket _packet) [0x00000] in <filename unknown>:0 
-  at TBD.GameSparksManager.<StartNewRTSession>m__5 (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.OnPacket (RTPacket packet) [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.CustomCommand.Execute () [0x00000] in <filename unknown>:0 
-  at GameSparks.RT.RTSessionImpl.Update () [0x00000] in <filename unknown>:0 
-  at GameSparksRTUnity.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.701270 ms
+UnloadTime: 4.463898 ms
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 714.
-Total: 4.223823 ms (FindLiveObjects: 0.064253 ms CreateObjectMapping: 0.071263 ms MarkObjects: 4.064356 ms  DeleteObjects: 0.014019 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1008.
+Total: 2.783657 ms (FindLiveObjects: 0.082946 ms CreateObjectMapping: 0.076812 ms MarkObjects: 2.603161 ms  DeleteObjects: 0.017815 ms)
 
 GC| Found 2 Players...
  
@@ -717,7 +179,27 @@ Spawn Counter2
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Shooting
+Open Fire Called
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+SendingDeath
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+SendingDeath
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+SendingDeath
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+SendingDeath
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GSM| Player 2 Disconnected
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -741,7 +223,23 @@ Applying Damage
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Shooting
+Open Fire Called
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Shot Enemy
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Test
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Applying Damage outside
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Applying Damage
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -762,6 +260,30 @@ Applying Damage outside
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Applying Damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Open Fire Called
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Shot Enemy
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Test
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Applying Damage outside
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Applying Damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Open Fire Called
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 

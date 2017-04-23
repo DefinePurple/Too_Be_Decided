@@ -45,15 +45,14 @@ namespace TBD {
 
         void Start() {
             SetInitial();
-            UIAmmoUpdateRequest();
+            StartCoroutine(UpdateAmmoUIWhenEnabling());
         }
 
         void SetInitial() {
             gunMaster = GetComponent<Gun_Master>();
-            if (GameManager_References._player != null) {
-                playerMaster = GameManager_References._player.GetComponent<Player_Master>();
-                ammoBox = GameManager_References._player.GetComponent<Player_AmmoBox>();
-            }
+            playerMaster = GetComponentInParent<Player_Master>();
+            ammoBox = GetComponentInParent<Player_AmmoBox>();
+            
         }
 
         void DeductAmmo() {
